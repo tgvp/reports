@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{Brugger14}
+Niels Br{\"u}gger.
+\newblock Probing a nation's web sphere: A new approach to web history and a
+  new kind of historical source, 2014.
+
+\bibitem{costaiwann13}
+Tarc{\'i}sio~Souza Costa and Alexandre C{\'e}sar~Muniz de~Oliveira.
+\newblock Artificial bee clustering search.
+\newblock In Ignacio Rojas, Gonzalo~Joya Caparr{\'o}s, and Joan Cabestany,
+  editors, {\em IWANN (2)}, volume 7903 of {\em Lecture Notes in Computer
+  Science}, pages 20--27. Springer, 2013.
+
+\bibitem{costa2014}
+Tarcísio~Souza Costa and Alexandre Cesar~Muniz de~Oliveira.
+\newblock Artificial bee and differential evolution improved by clustering
+  search on continuous domain optimization.
+\newblock {\em Soft Computing}, pages 1--12, 2014.
+
+\bibitem{gossen15}
+Gerhard Gossen, Elena Demidova, and Thomas Risse.
+\newblock icrawl: Improving the freshness of web collections by integrating
+  social web and focused web crawling.
+\newblock In Paul Logasa~Bogen II, Suzie Allard, Holly Mercer, Micah Beck,
+  Sally~Jo Cunningham, Dion Hoe-Lian Goh, and Geneva Henry, editors, {\em
+  JCDL}, pages 75--84. ACM, 2015.
+
+\bibitem{icrawlRequirements}
+Thomas Risse, Elena Demidova, and Gerhard Gossen.
+\newblock What do you want to collect from the web?
+\newblock In {\em Proc. of the Building Web Observatories Workshop (BWOW)
+  2014}, 2014.
+
+\end{thebibliography}

@@ -1,0 +1,646 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{fix-cm}
+\usepackage{url}
+\usepackage[Glenn]{fncychap}
+\usepackage[hmargin={2.5cm}]{geometry}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{blindtext}
+\usepackage{tabularx}
+\usepackage{tabulary}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{enumitem}
+\usepackage{xspace}
+
+
+\renewcommand\FmN[1]{}
+%opening
+\title{Ciência sem Fronteiras (Science Without Borders) - 1st Technical Report}
+
+\begin{document}
+
+\maketitle
+
+\chapter{Introduction and PhD Project Context}
+
+The research work performed in this project is closely aligned with the ALEXANDRIA 
+and iCrawl projects at the L3S Research Center -  
+Leibniz Universit\"at Hannover\footnote{The L3S Research Center: \url{www.L3S.de}}.  
+%
+
+The L3S Research Center, the host institution of the PhD project, 
+is one of the leading institutions
+focusing on basic and applied research in the field of Web Science.  
+% 
+
+The ALEXANDRIA project \footnote{The ALEXANDRIA project: \url{http://alexandria-project.eu/}} 
+aims at creating a foundation for temporal retrieval, exploration and analytics in Web archives.
+%
+Web archives are a rich source of data since they reflect rapid evolution
+of the digital world. The interest in using the data
+stored within Web archives has been observed by researchers from different
+areas, such as history, sociology and law \cite{icrawlRequirements}. For example, 
+the discussion in \cite{Brugger14} indicates that Web archives are an important source for
+communication and media history, as well as within historiography in general.
+%
+In the context of Web archives, unique Web data collections available within 
+the ALEXANDRIA project represent a great opportunity to create new
+methods to explore and analyse the large scale data within Web archives.
+It also provides contacts with high level
+research scientists that has been crucial to the development of the PhD project.
+
+While ALEXANDRIA focuses on already existing data collections within Web archives,
+the iCrawl project\footnote{\url{http://icrawl.l3s.uni-hannover.de/}} 
+aims at creation of such collections efficiently on demand, 
+using Web and Social Web data. In particular, the role of Social Media to achieve
+better temporal and topical coherence of the resulting collections is in the  
+main research focus of the project.
+
+Table~\ref{tab:work} illustrates the detailed information about the PhD
+candidate at the L3S Research Center.
+
+\begin{table} [!htb]
+\begin{center}
+\begin{tabular}{|l|l|l}
+\cline{1-2}
+\multicolumn{1}{|c|}{Name} & \multicolumn{1}{c|}{Tarcísio Souza Costa} &  \\ 
+\cline{1-2}
+\multicolumn{1}{|c|}{Process number} & \multicolumn{1}{c|}{201836/2014-9} &  \\ 
+\cline{1-2}
+\multicolumn{1}{|c|}{Report number} & \multicolumn{1}{c|}{1} &  \\
+\cline{1-2}
+\multicolumn{1}{|c|}{Area} & \multicolumn{1}{c|}{Computer Science} &  \\ 
+\cline{1-2}
+\multicolumn{1}{|c|}{Sub-area} & \multicolumn{1}{c|}{Computer Science} &  \\ 
+\cline{1-2}
+\multicolumn{1}{|c|}{Institution} & \multicolumn{1}{c|}{Instituto Federal do
+Maranhão - Brasil} & \\
+\cline{1-2}
+\multicolumn{1}{|c|}{Department} & \multicolumn{1}{c|}{Professional Education} &\\
+\cline{1-2}
+\multicolumn{1}{|c|}{Professional Address} & \multicolumn{1}{c|}{
+Pacas Street 5, Pinheiro Campus, Pinheiro - Maranhão, Brasil} &
+\\
+\cline{1-2}
+\multicolumn{1}{|c|}{E-mail} &
+\multicolumn{1}{c|}{souza@l3s.de | tarcisio@ifma.edu.br} &\\
+\cline{1-2}
+\multicolumn{1}{|c|}{Research Project} &
+\multicolumn{1}{c|}{ALEXANDRIA}
+&
+\\
+\cline{1-2}
+\multicolumn{1}{|c|}{Title} & \multicolumn{1}{|c|}{Master} \\
+\cline{1-2}
+\multicolumn{1}{|c|}{Supervisor} & \multicolumn{1}{|c|}{Prof. Dr. Wolfgang
+Nejdl | nejdl@l3s.de} \\
+\cline{1-2}
+\multicolumn{1}{|c|}{Advisor/Mentor} & \multicolumn{1}{|c|}{Dr. Elena Demidova
+| demidova@l3s.de}
+
+\\
+\cline{1-2}
+\multicolumn{1}{|c|}{Period of Evaluation} &
+ \multicolumn{1}{c|}{October, 2014$\rightarrow$July, 2015} \\
+\cline{1-2}
+\end{tabular}
+
+\caption{Student description}
+\end{center}
+\label{tab:work}
+\end{table}
+
+In the following sections, we present a detailed description regarding the PhD work
+developed at the L3S during the first reporting period in the context of ALEXANDRIA and iCrawl projects. 
+Then we present the work plan for the second year. 
+
+\chapter{Description of Research Activities}
+
+\section{Research and development activities}
+
+In the first year of the PhD project, the student has been involved in some of the key projects
+at L3S that focus on analytics of the Social Web and Web content,  
+including iCrawl and ALEXANDRIA projects. 
+
+At the beginning of the first year at the L3S Research Center, the student 
+joined the team of iCrawl lead by Dr. Elena Demidova, who was appointed as the student advisor
+by Prof. Nejdl.
+% 
+In this time period, the goal of the project was to study how 
+Social Web signals can be used to support focused collection of fresh Web content 
+relevant to the current events, such as an Ebola outbreak, or a military conflict in Ukraine, 
+in an effective and efficient way. In iCrawl, Social Web signals, in this case Twitter messages,
+have been used to guide the Web crawler towards the newly created pages \cite{gossen15}.
+%
+In this initial phase, the student studied the literature related to the 
+problems of focused crawling and Social Web analytics.
+He also became familiar with the software developed in the context of the iCrawl project as well as 
+with the Big Data research infrastructure of the L3S Research Center. 
+Also in this period, the student started to learn new Big Data technologies, 
+such as Hadoop MapReduce, Hive and Pig Latin. 
+
+Large scale Web data collections, like those created in the iCrawl project, 
+or, more generally, data contained within Web archives, require efficient access techniques
+that can enable to efficiently locate relevant Social Web and Web content stored  
+within the archive to enable further research. 
+%
+The goal of providing efficient light-weight access to large scale Web collections
+lead the student to joining the ALEXANDRIA project at L3S later on as this project 
+explicitly focuses on providing efficient entity-centric access to large scale 
+Web collections. 
+
+The student became familiar with the work plan of the ALEXANDRIA project and joined Work Package 
+1 (Evolution-Aware Entity-Based Enrichment and Indexing), 
+where he focused on creation of novel efficient light-weight methods for 
+entity-centric access to Web archives. In this context, he 
+became familiar with the state-of-the-art methods and tools in the field of 
+Named Entity Recognition (NER), and other information extraction tools. 
+
+% Several papers regarding some of
+% work packages described in ALEXANDRIA project were read, the goal was to learn in
+% general the state of the art of most of all works developed at that moment in L3S Research Center
+% and to be familiar with the ALEXANDRIA project. 
+% % The student was integrated
+% to the iCrawl \footnote{\url{http://icrawl.l3s.uni-hannover.de/}} project, where Dr. Elena
+% Demidova was indicated by Prof. Nejdl to be the advisor of this research. Thus, the 
+% readings were conducted to papers related to
+% the focused crawling literature, as well as the implementation details regarding 
+% the iCrawl software developed in L3S. Also in this period, the student started
+% to learn new big data technologies, as Hadoop MapReduce, Hive and Pig
+% Latin. 
+
+In order to provide efficient URL-based access to the Web archive data in the ALEXANDRIA 
+context, a URL discovery algorithm that
+maps a set of URLs from the current Web to the corresponding URLs from the Web archive was developed. 
+In this period the student investigated several methods to optimize the URL discovery 
+algorithm, such as the join optimization using Hive tables and an integration with Apache HBase.
+
+As full-text indexing of large scale Web archive data is computationally very expensive,
+the student developed a light-weight full-text index that only takes the URLs into account.
+To this extent, the student has written an analyzer for correct pre-processing 
+and parsing of URLs to detect keywords. 
+%
+At the same period the student also learned a distributed indexing technology, named Elastic
+Search. The index was
+developed and made available in Kibana (a user-friendly Elastic Search graphical user
+interface). The student presented the resulting index using such Kibana interface during
+the ALEXANDRIA meeting on March 5th, 2015.
+%
+Many ideas arrived, as categorizing 
+the search results by domain and mime type, as well as setting some fields as analyzed 
+by the search engine and improve the search engine to retrieve documents in certain 
+periods of time. 
+
+In the same period the index was improved by inserting mime type, domain and
+improvements related to temporal expressions automatically 
+extracted from the URLs, also changes in the main
+structure were performed. This index should be used as a starting point for the iCrawl
+to find relevant documents within the archive. 
+
+The student started writing a paper together with the other colleagues from
+the iCrawl project, that analyses a subset of URLs, named as Popular German
+Web. Such a subset is related to popular domains according to Alexa
+ranking\footnote{\url{http://www.alexa.com}}. In this paper we measure the
+quantity of URLs that are alive (the status code starts with ``2'') per year and per domain, 
+also counting in which domains categories they are included, as Sports, Games,
+Computes and so on. We also extracted temporal expressions
+and entities using only the information within URLs.
+
+We continue working on this paper where iCrawl meetings were 
+very helpful to improve the results, for instance by adding better
+pre-processing and post-filtering procedures in the URLs before applying state
+of the art techniques to extract entities, as Stanford Named Entity Recognition
+(NER) \footnote{\url{http://nlp.stanford.edu/software/CRF-NER.shtml}}. Using
+those procedures we reach a precision up to 85\% in our dataset. 
+%
+The paper describing this work was accepted for publication at the 
+1st International Keystone Conference
+\footnote{\url{http://www.keystone-cost.eu/ikc2015/about.php}} at the begging of
+July. The abstract of that paper is available as
+follows:
+
+``Long-term Web archives comprise Web documents gathered over longer time periods and can easily reach hundreds of terabytes in size.
+Semantic annotations such as named entities can facilitate intelligent access to the Web archive data. 
+However, the annotation of the entire archive content on this scale is often infeasible. The most efficient way to access the documents within Web archives is provided through their URLs, which are typically stored in 
+dedicated index files. The URLs of the archived Web documents can contain
+semantic information and can offer an efficient way to obtain initial semantic annotations for the archived documents. 
+In this paper, we analyse the applicability of semantic analysis techniques such as named entity extraction
+to the URLs in a Web archive. We evaluate the precision of the named entity
+extraction from the URLs in the Popular German Web dataset and analyse the
+proportion of the archived URLs from 1,444 popular domains in the time interval from 2000 to 2012 to which these techniques are applicable.
+Our results demonstrate that named entity recognition can be successfully applied to a large number of URLs in 
+our Web archive and provide a good starting point to efficiently annotate large scale collections of Web documents.''
+
+This work was presented at ALEXANDRIA meeting on June 18th, 2015. Some ideas
+to improve this work were presented by the other colleagues, as evaluating
+precision and filtering on a sample of distinct URLs, instead of captures and
+present a more detailed description of how the precision was measured. 
+The student is currently working on the camera-ready
+version of the paper to address the review comments.
+
+In addition to the research activities and publications in the ALEXANDRIA project, during this reporting period 
+the student 
+received an acceptance message from an extended version of a paper to be published in
+a journal, the Artificial Bee Clustering Search (ABCS) algorithm \cite{costaiwann13}. 
+After the final version submitted, the journal paper was published \cite{costa2014}. 
+
+
+\section{Community services}
+
+The student worked as a sub-reviewer together with Dr. Thomas Risse for the 
+Joint Conference on Digital Libraries 2015 (JCDL 2015). That was a good experience since
+the paper student reviewed was related to the PhD work and was
+very useful to improve the student knowledge in the field.
+
+\section{Courses}
+
+In winter semester, the student followed the course ``Foundations of Information Retrieval"
+including lectures and exercises offered by Prof. Nejdl. This lecture provides a solid 
+foundation to better understand Information Retrieval concepts and terminology
+used in the context of the ALEXANDRIA project and also to become familiar with the  
+typical evaluation methods. 
+
+In summer semester, the student participated in the course 
+``Advanced Methods of Information Retrieval'' conducted by Dr. Elena Demidova. In this course
+Information Retrieval specific methods were presented from the practical point of view, 
+including implementation exercises and challenging research questions during the lectures.
+This course was very useful for the student to become familiar with a diversity
+of relevant topics in the field as well as open research directions relevant to the doctoral
+study.
+
+%In the following period, The student will present a paper in July, as part of
+%the course, named ``Improving the performance of focused web crawlers''.
+
+
+\chapter {Conclusion}
+The first period in L3S was a really rich experience, since the student had
+an opportunity to study different research areas, learning new technologies as
+well as working with top-level researchers.
+During this period the student could find a well defined working approach
+implemented by L3S, where regular meetings with the supervisor (one per month)
+and the advisor (one per week) were performed, which was very useful to
+improve the student knowledge, also helping him to improve the PhD work that has
+been developed in last months. 
+%
+The difficulties the student faced in the first
+time were related to the organization of the work, 
+in particular with respect to estimating the time needed to become proficient with the 
+current Big Data technologies and software.
+%
+It was a satisfactory period and the first developed work
+was just a starting point for what can be done in next periods.
+
+\section{Work plan for the second year}
+
+The research plan for the second year takes into account the 
+ideas from the initial work plan proposal, as well as experiences 
+collected within the first year of PhD and the research environment at the L3S Research Center.
+The planned research activities will facilitate a better integration of the student 
+in the L3S research environment and foster collaborations with the L3S researchers,
+in particular in the context of the ALEXANDRIA project.
+
+In the second year, the student will continue working on the 
+efficient light-weight semantic access methods to data in Web archives. 
+In particular, the student will work on the following research problems:
+
+\begin{itemize}
+\item [1.] Continue development and evaluation of techniques for analysis of named entities and 
+temporal expressions in URLs.
+\item [2.] Study the correlation between semantic information extracted from URLs and document content.
+\item [3.] Develop methods to efficient URL-based creation of sub-collections from the archives
+using, among others, soft computing-based algorithms. 
+\end{itemize}
+
+In the following, we describe these problems in more detail.
+
+\subsection{Semantic URL Analytics}
+As mentioned above, semantic URL analytics can enable light-weight access to large scale data stored in 
+Web archives. 
+%
+We are currently working on NER and time extraction improvements related
+to some tasks that will be performed aiming to better analyse the NER evaluated
+in the aforementioned paper. In general we performed a large scale data analysis
+and pre-processing, which would be a preparation to the soft computing-based
+algorithms that could be applied to the ALEXANDRIA dataset.
+
+In the second year, we will further develop and evaluate techniques for 
+URL analytics, including extraction of terms, named entities and temporal expressions. 
+%
+In particular, we will evaluate the results of the proposed temporal expression extraction 
+against the state-of-the-art baselines, such as SUTime. Also, term extraction results will be 
+evaluated against existing dictionaries and query logs.
+
+
+
+\subsection{Correlation between the URL and the Text}
+Although Web archive access based on the URL analytics results can be very efficient, 
+it is based on the assumption that the terms, entities and temporal expressions mentioned on 
+the URLs are representative with respect to the document content. 
+%
+In order to verify this assumption, we will perform an evaluation on the large-scale Web archive data.
+In particular, we are interested to see if and in which part of the document (e.g. title, first paragraph) 
+contain the terms identified in the URLs using our analysis methods. 
+
+\subsection{Generation of the focused Sub-collections based on the URLs}
+
+%
+Typically, researchers working with the Web archives are interested in obtaining a
+topically coherent collections of documents that come from a specific time and
+contain information with respect to a specific topic. 
+
+In the previous steps we analysed and indexed the URLs to capture semantic information they contain.
+In this step, we will focus on the question of how to use such semantic information 
+to obtain topically and temporally focused document collections using this information.
+To this extent, we are planning to use soft-computing algorithms.
+
+
+% The first work plan that was submitted presented a general idea of what the
+% student could develop, but does not really represented a real
+% scenario, since at that time the student was not much familiar with the related
+% topics regarding the research implemented by L3S, but
+% it was useful as a starting point for the future plans. 
+% %
+% Therefore, we design a new work plan for the second year
+% taking into account the initial plan and the research experience collected 
+% within the first year, as
+% described on following paragraphs.
+
+%\begin{table} [!htb]
+%\footnotesize
+%\begin{center}
+%\begin{tabular}{|l|l|l}
+%\cline{1-2}
+%\multicolumn{1}{|c|}{\textbf{Task}} & \multicolumn{1}{c|}{\textbf{Time
+%(July,2015$\rightarrow$June,2016)}} &
+%\\
+%\cline{1-2}
+%\multicolumn{1}{|c|}{NER and time extraction improvements} &
+%\multicolumn{1}{c|}{July} &
+%\\
+%\cline{1-2}
+%\multicolumn{1}{|c|}{Terms extraction in URLs + clustering algorithm
+% adaptation} & \multicolumn{1}{c|}{July$\rightarrow$September} & \\
+%\cline{1-2}
+%\multicolumn{1}{|c|}{URLs Related work} &
+%\multicolumn{1}{c|}{July} & \\
+%\cline{1-2}
+%\multicolumn{1}{|c|}{Extend the URL paper} &
+%\multicolumn{1}{c|}{August} &
+%\\
+%\cline{1-2}
+%\multicolumn{1}{|c|}{Lectures} &
+%\multicolumn{1}{c|}{October$\rightarrow$March} &  \\
+%\cline{1-2}
+%\multicolumn{1}{|c|}{Analysis in the whole alive URLs in archive} &
+%\multicolumn{1}{c|}{September} &
+%\\
+%\cline{1-2}
+%\multicolumn{1}{|c|}{Writing paper about the whole archive analysis} &
+%\multicolumn{1}{c|}{October} & \\
+%\cline{1-2}
+%\end{tabular}
+%\label{tab:work2}
+%\caption{Schedule of tasks}
+%\end{center}
+%\end{table}
+
+
+The previously mentioned work, the iCrawl software \cite{gossen15}, estimates the
+freshness of web collections by integrating social media and a focused web
+crawler. The crawler is automatically guided towards fresh content, which
+a social media component, like twitter, support such process providing updated
+content related to a certain topic as the Ukraine crisis. Such work represent a
+novel approach, since current work consider topical and temporal aspects in
+isolation and sometimes failing when trying to get not only relevant document
+to a certain topic, but also up-to-date \cite{gossen15}. As mentioned in
+this work, even though Twitter only allows 140 characters for each post, social media
+platforms offer more expressive queries, which allows the crawler to retrieve
+posts matching certain keywords relevant to a certain topic. The results
+confirm that Twitter can be effectively used as a source of fresh content.
+
+Following the work plan we described in last year and considering the iCrawl,
+we are planing to develop soft computing-based approaches to be integrated to
+iCrawl, which also contains a focused component. The approach in the current Web
+could be used as entry points for the web archives to construct good sub-collections.
+
+\textit{Soft computing} (\textit{SC}) techniques constitute a large set of
+methodologies as fuzzy logic, neural networks, probabilistic reasoning, evolutionary computing as well as
+parts of machine learning theory and others, they are useful to solve problems
+requiring some form of intelligence. The applicability of \textit{SC} is related
+to its tolerance to imprecision, uncertainty, partial truth and aproximation.
+Evolutionary computing, as the genetic algorithms and its variants have been used in 
+several forms in the literature of focused crawlers, such as in \cite{genetic1}, \cite{enhancedfocused} and \cite{genetic3}. 
+Genetic Algorithms (GA) has an implicit parallelism, which is able to efficiently use global information from
+the search space, but using them alone might reduce its capacity to
+cover more promising areas of the search space, which is an
+important factor to find the global optimal solution of many problems.
+Therefore, hybrid approaches using genetic algorithms has been applied to
+improve the exploitation characteristic of the GA, as in \cite{advances}.
+%Therefore, we want to design and implement state-of-the-art
+%\textit{SC} approaches in the ALEXANDRIA dataset combined with efficient local
+%search procedures to remedy this problem.
+
+According to \cite{focusedgenetic}, researchers found some structural 
+properties of Web communities that made local searching algorithms were not suitable for focused crawling. 
+Many Web pages could be missed by focused crawlers, due to their local searching
+nature \cite{focusedgenetic}. In this way, evolutionary
+algorithms as GA are promising methods to address the problem of focused crawler
+described above, since they are going to across some vast search spaces
+efficiently and can discover the approximate global optimal solutions instead of the local ones.
+Therefore, we particularly want to design an hybrid evolutionary
+algorithm (GA + clustering and local search procedures) to the web archives
+search space, where local search procedures will be performed only in promising areas previously detected 
+by an iterative clustering
+process, as describe in \cite{advances} and \cite{costa2014}.
+Many experiments performed using pure and hybrid evolutionary algorithms in
+literature confirmed that the population converge to the best individual and
+in the majority of cases hybrid approaches outperforms pure ones. 
+
+There are many ways to explore the ALEXANDRIA web
+archives using an aproximative method. Initially we want to create an
+efficient automatic generator of starting points (seed URLs) for a focused
+crawler to create topically coherent collections.
+In order to reach this we need to perform a kind of
+keyword classification based on a topic. Such keywords would be extracted from
+the URLs in the archive, for that we could use a term semantic analyser to
+verify the similarity among different terms using a previously constructed
+dictionary.
+
+Once we detect terms in the first place,
+the search for other related terms in the document will help us to increase
+the set of useful topic keywords. We want to run
+this method to a number of different topics (e.g. german elections, floods in
+europe and 2006 FIFA world cup). 
+%To find similar terms to those found in the
+%URL, the genetic algorithm would be useful to construct a set of terms (genes)
+% representing a document (individual) in the web archive.
+
+In the literature of focused crawlers, when GAs were applied to improve the
+relevance of downloaded web pages, as in \cite{enhancedfocused}, only a pure GA
+was used, which means that our approach appears as a promise way to
+find relevant documents by designing a hybrid evolutionary
+algorithm to the focused crawler iCrawl component. A possible implementation is
+to represent a document in a collection as an individual in the population and the document relevance could be seen as its \textit{fitness}\footnote{The fitness of an individual in a genetic algorithm is its representative value in the population, the best individual has the best fitness.}.
+Thus, since we can produce good individuals within the first generations of an evolutionary algorithm, certainly good sub-populations
+(sub-collections) can be obtained from the first ones by applying classical
+genetic operators (\textit{mutation} and \textit{crossover}) to the collection.
+According to \cite{Gordon88}, documents are represented by an array of keywords and they will
+evolve through natural selection and genetic operators. In such work the
+results were generally proved to be the best string of keywords
+describing the document.
+
+Summarizing the future work in L3S regarding the generation of topically coherent collections, 
+we will implement the automatic generator described above, following
+some pre-defined topics to create good seed URLs as well as the hybrid algorithm
+\cite{advances} will be integrated to the focused iCrawl component.
+We will also compare the results of our hybrid approach against classical
+focused crawlers with and without pure genetic algorithms. We expect
+that more relevant documents will be generated by the hybrid approach
+creating good topically coherent collections.
+%When extracting keywords, we could use a certain algorithm (e.g.
+%ABCS \cite{costa2014}) that would group them into similar groups or clusters.
+%Such clusters could be seen as topics, as the German elections mentioned above
+%% and useful keywords related to this topic could be ``Angela Merkel'' or
+% ``Wahl'', that
+%means election in German. We also want to use the social media to get useful
+%keywords for a certain topic, since such media is a useful source to get topic
+%keywords, as analysed in \cite{gossen15}. 
+
+% \subsection{Proposed algorithm}
+% 
+% Following we describe the key elements from our metaheuristic to be designed to
+% the ALEXANDRIA web archives. The population (also know as chromossomes or
+% individuals from GA) means the total number of documents (web pages), where the 
+% \textit{fitness} function evaluates a certain individual inside the
+% population, which means that we will use some well-known function or construct
+% our own fitness function to evaluate each web page for a certain topic, based on our
+% previous knowledge about the keywords extracted from each web page.
+% \begin{itemize}
+%   \item Initialization - First the archive crawler will start from a seed of URLs, 
+%   such seeds could be generated by the automatic method describe above or by any other.
+%   \item Fitness function - Can be cosine similarity or other relevant document
+%   similarity function. The fitness can contains a previous analysis of a certain
+%   path from a web page in the archive collection towards
+%   relevant documents. The fitness function could also be proportional to the
+%   quantity of relevant documents we can reach from a certain document. We could
+%   develop a ``neighborhood function'' for each web page.
+%   \item Clustering - The ABCS algorithm proposed also contains a clustering
+%   process, which we can classify the web pages accordingly. 
+% \end{itemize}  
+% 
+% The contribution of this work could be the application for our ALEXANDRIA
+% data itself and also the addition of novel measures to our algorithms, as the
+% neighborhood function. We can also think as a contribution the insertion of
+% local search procedures to our metaheuristic applied to web documents, since in
+% the current work this approach was never used. The archive genetic crawler could
+% be a new promising version of a web crawler trying to create sub-collections from
+% web archives, the genetic component could be also added to the iCrawl architecture,
+% using the genetic algorithm trying to expand the search space through sub-spaces
+% aiming to find more relevant documents.
+
+%The second idea is to create a kind of learning crawler that from a set of
+%example pages (training set) could learn
+%Since the clustering process is a promise technique for obtaining related
+%subgroups from a larger data set, another application for the archive crawler
+%could be 
+%\begin{itemize}
+ % \item Read the time extraction related work.
+  %\item Using
+  %\textit{SUTime}\footnote{\url{http://nlp.stanford.edu/software/sutime.shtml}}
+  %as a baseline for temporal extraction.
+  %\item Re-run the experiments against distinct URLs, instead of captures.
+  %\item Calculate precision and recall on a sample of distinct URLs for time
+  %and entities extraction.
+  %\item Construct a routine to check where those extracted entities
+  %from NER can be found in the HTML content.
+  %\item Count the number of documents where those entities were found
+  %in the archive.
+  %\item Analyse the correlation of dates in URLs with other dates in the
+  %document.
+  %\item investigate ways to learn date patterns in URLs, perhaps using machine
+  %learning techniques.
+%\end{itemize}
+
+%The second task, \textit{Terms extraction in URLs}, aim to construct a routine
+%to extract terms in URLs that belongs to a certain dictionary. This task is
+%just a start point to a more complex task which can provide a way to easily
+%find URLs in the archive by means of a set of keywords, where such keywords
+%could belong to a certain topic as ``German Election''. One can think a topic
+% as a cluster where similar keywords (related to a certain topic) would be
+%assimilated by the closest cluster, in this way we want to use a classification
+%algorithm, as that one created by the student in his master thesis
+%\cite{costa2014}. \textit{Clustering algorithm adaptation} means that the
+%previous implemented algorithm in \cite{costa2014} to solve different problems
+% need to be designed to this new one. In the following task, \textit{URL Related
+%Work}, we plan to read in more detail the works presented in the submitted
+% paper and also other relevant papers to obtain a more concrete idea regarding URL features extraction.
+
+%The task \textit{lectures} means that the student will attend to lectures
+% aiming to improve his work. For the winter semester in 2015, the student would like to
+%participate in temporal information retrieval. Regarding the following two
+%tasks, which are related to an analysis of the whole archive, in principle we
+%want to perform a similar analysis we did in the first paper, since now an
+%indexing task of the whole archive is running and we expect it will finish
+%before september. Once this index is finished we will be able to perform those
+%two tasks.
+
+
+%Such task Once this task is finished, we are able to extend that paper in
+% August and submit this extension as a journal paper.
+\onehalfspace
+\bibliography{bibliografia}{}
+\bibliographystyle{plain}
+%\begin{thebibliography}{1}
+
+%\bibitem{IEEEhowto:kopka}
+%H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+%\bibitem{talbi-book}
+%\newblock El-Ghazali Talbi. Metaheuristics - From Design to Implementation. Wiley, 2009.
+
+
+%\bibitem{ga}
+
+%\newblock David E. Goldberg. Genetic Algorithms in Search, Optimization and Machine Learning. Addison-Wesley Publishing Company, Reading, Massachusetts, 1989.
+
+%\bibitem{abc}
+
+%\newblock Dervis Karaboga and Bahriye Akay. A comparative study of artificial bee colony algorithm. Applied Mathematics and Computation, 214(1):108–132, 2009.
+
+%\bibitem{de}
+
+%\newblock Kenneth Price and Rainer Storn. Differential evolution: A simple evolution strategy
+%for fast optimization. Dr. Dobb’s Journal of Software Tools, 22(4):341–359, December 1997.
+
+%\bibitem{cs}
+
+%\newblock A.C.M de Oliveira and L.A.N Lorena. Detecting promising areas by evolutionary clustering search. 2004.
+
+%\bibitem{abcs}
+
+%\newblock Costa, T.S. ; Oliveira, A.C.M. New Clustering Search approaches applied to continuous domain optimization. IEEE Congress on Evolutionary Computation (CEC), p.3214, 2013, Cancun. (DOI: 10.1109/CEC.2013.6557963)
+
+%\bibitem{bap}
+
+%\newblock Barros, V.H. ; Costa, T. S.; Oliveira, A. C.M. ; Lorena, L.A.N. Model and heuristic for berth allocation in tidal bulk ports with stock level constraints. Computers \& Industrial Engineering, v. 60, p. 606-613, 2011. (DOI: http://dx.doi.org/10.1016/j.cie.2010.12.018) 
+
+%\bibitem {eda}
+
+%\newblock P. Larranaga and J. A. Lozano, Estimation of Distribution Algorithms: A New Tool for Evolutionary Computation. Norwell, MA: Kluwer, 2001.
+
+%\bibitem {ieeecec}
+
+%\newblock P. N. Suganthan, N. Hansen, J. J. Liang, K. Deb, Y.-P. Chen, A. Auger,
+%and S. Tiwari, “Problem Definitions and Evaluation Criteria for the
+%CEC 2005 Special Session on Real-Parameter Optimization,” Nanyang
+%Technol. Univ., Singapore, IIT Kanpur, India, KanGAL Rep. 2005005,
+%May 2005.
+
+%\end{thebibliography}
+\end{document}
+

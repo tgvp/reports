@@ -1,0 +1,2209 @@
+@inproceedings{ldspider,
+author = { Robert Isele and J\"{u}rgen Umbrich and Chris Bizer and Andreas Harth},
+title = { {LDSpider}: An open-source crawling framework for the Web of Linked Data} ,
+year = { 2010 },
+booktitle = { Proceedings of 9th International Semantic Web Conference (ISWC 2010) Posters and Demos},
+url = { http://iswc2010.semanticweb.org/pdf/495.pdf }
+}
+
+@InProceedings{gossen15,
+  title =	"iCrawl: Improving the Freshness of Web Collections by
+		 Integrating Social Web and Focused Web Crawling",
+  author =	"Gerhard Gossen and Elena Demidova and Thomas Risse",
+  bibdate =	"2015-06-15",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/jcdl/jcdl2015.html#GossenDR15",
+  booktitle =	"JCDL",
+  booktitle =	"Proceedings of the 15th {ACM}/{IEEE}-{CE} on Joint
+		 Conference on Digital Libraries, Knoxville, {TN},
+		 {USA}, June 21-25, 2015",
+  publisher =	"ACM",
+  year = 	"2015",
+  editor =	"Paul Logasa Bogen II and Suzie Allard and Holly Mercer
+		 and Micah Beck and Sally Jo Cunningham and Dion
+		 Hoe-Lian Goh and Geneva Henry",
+  ISBN = 	"978-1-4503-3594-2",
+  pages =	"75--84",
+  URL =  	"http://dl.acm.org/citation.cfm?id=2756406",
+}
+
+@inproceedings{Verborgh2014,
+year=2014,
+booktitle={7th Workshop on Linked Data on the Web},
+title={Web-Scale Querying through Linked Data Fragments},
+publisher={CEUR series of workshop proceedings},
+author={Ruben Verborgh and  Miel Vander Sande and Pieter Colpaert and  Sam Coppens and Erik Mannens and Rik Van de Walle},
+url={http://linkeddatafragments.org/publications/}
+}
+
+@inproceedings{Harth:2010,
+ author = {Harth, Andreas and Hose, Katja and Karnstedt, Marcel and Polleres, Axel and Sattler, Kai-Uwe and Umbrich, J\"{u}rgen},
+ title = {Data Summaries for On-demand Queries over Linked Data},
+ booktitle = {Proceedings of the 19th International Conference on World Wide Web},
+ series = {WWW '10},
+ year = {2010},
+ isbn = {978-1-60558-799-8},
+ location = {Raleigh, North Carolina, USA},
+ pages = {411--420},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1772690.1772733},
+ doi = {10.1145/1772690.1772733},
+ acmid = {1772733},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {index structures, linked data, rdf querying},
+} 
+i
+@article{survey:queryExpansion:2012,
+ author = {Carpineto, Claudio and Romano, Giovanni},
+ title = {A Survey of Automatic Query Expansion in Information Retrieval},
+ journal = {ACM Comput. Surv.},
+ issue_date = {January 2012},
+ volume = {44},
+ number = {1},
+ month = jan,
+ year = {2012},
+ issn = {0360-0300},
+ pages = {1:1--1:50},
+ articleno = {1},
+ numpages = {50},
+ doi = {10.1145/2071389.2071390},
+ acmid = {2071390},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Query expansion, document ranking, pseudo-relevance feedback, query refinement, search, word associations},
+} 
+@ARTICLE{DBpedia,
+  author = {Jens Lehmann and Robert Isele and Max Jakob and Anja Jentzsch and Dimitris Kontokostas and Pablo N. Mendes and Sebastian Hellmann and Mohamed Morsey and Patrick van Kleef and S{\"o}ren Auer and Christian Bizer},
+  title = {{DBpedia} -- A Large-scale, Multilingual Knowledge Base Extracted from Wikipedia},
+  journal = {Semantic Web Journal},
+  year = {2014},
+}
+
+@article{wikiminer,
+ author = {Milne, David and Witten, Ian H.},
+ title = {An Open-source Toolkit for Mining Wikipedia},
+ journal = {Artificial Intelligence},
+ issue_date = {January, 2013},
+ volume = {194},
+ month = jan,
+ year = {2013},
+ issn = {0004-3702},
+ pages = {222--239},
+ numpages = {18},
+ doi = {10.1016/j.artint.2012.06.007},
+ acmid = {2405918},
+ publisher = {Elsevier Science Publishers Ltd.},
+ address = {Essex, UK},
+ keywords = {Annotation, Disambiguation, Ontology extraction, Semantic relatedness, Toolkit, Wikipedia},
+} 
+
+
+@inproceedings{wikitimes:2014,
+  title={Indexing and analyzing Wikipedia’s Current Events Portal, the Daily News Summaries by the Crowd},
+  author={Binh Tran, Giang and Alrifai, Mohammad},
+  booktitle={Proceedings of the 23nd international conference on World Wide Web companion},
+  year={2014},
+  organization={International World Wide Web Conferences Steering Committee}
+}
+
+@inproceedings{Finkel:2005,
+ author = {Finkel, Jenny Rose and Grenager, Trond and Manning, Christopher},
+ title = {Incorporating Non-local Information into Information Extraction Systems by Gibbs Sampling},
+ booktitle = {Proceedings of the 43rd Annual Meeting on Association for Computational Linguistics},
+ series = {ACL '05},
+ year = {2005},
+ location = {Ann Arbor, Michigan},
+ pages = {363--370},
+ numpages = {8},
+ doi = {10.3115/1219840.1219885},
+ acmid = {1219885},
+ publisher = {Association for Computational Linguistics},
+ address = {Stroudsburg, PA, USA},
+} 
+
+@inproceedings{speedread,
+  author    = {Rami Al-Rfou' and
+               Steven Skiena},
+  title     = {SpeedRead: A Fast Named Entity Recognition Pipeline},
+  booktitle = {COLING},
+  year      = {2012},
+  pages     = {51--66},
+  ee        = {http://aclweb.org/anthology/C/C12/C12-1004.pdf},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{Cornolti:2013,
+ author = {Cornolti, Marco and Ferragina, Paolo and Ciaramita, Massimiliano},
+ title = {A Framework for Benchmarking Entity-annotation Systems},
+ booktitle = {Proceedings of the 22Nd International Conference on World Wide Web},
+ series = {WWW '13},
+ year = {2013},
+ isbn = {978-1-4503-2035-1},
+ location = {Rio de Janeiro, Brazil},
+ pages = {249--260},
+ numpages = {12},
+ url = {http://dl.acm.org/citation.cfm?id=2488388.2488411},
+ acmid = {2488411},
+ publisher = {International World Wide Web Conferences Steering Committee},
+ address = {Republic and Canton of Geneva, Switzerland},
+ keywords = {wikipedia},
+} 
+
+@inproceedings{mohr04heritrix,
+  author =	 {G. Mohr and M. Kimpton and M. Stack and
+                  I. Ranitovic},
+  booktitle =	 "{4th International Web Archiving Workshop (IWAW04)}",
+  title =	 {Introduction to {Heritrix}, an archival quality web
+                  crawler},
+  year =	 2004,
+  timestamp =	 {2009-06-29T16:05:52.000+0200},
+}
+
+@inproceedings{icrawlRequirements,
+  author = {Risse, Thomas and Demidova, Elena and Gossen, Gerhard},
+  biburl = {http://www.bibsonomy.org/bibtex/2142470e9d1a4ceaaa50e603cd9395cc4/trisse69},
+  booktitle = {Proc. of the Building Web Observatories Workshop (BWOW) 2014},
+  interhash = {3afe49e8656a7ab079d58beb988df165},
+  intrahash = {142470e9d1a4ceaaa50e603cd9395cc4},
+  keywords = {sys:relevantfor:l3s 2014 alexandria archive crawler history_sciences icrawl law myown requirements social_sciences study web webarchiving},
+  timestamp = {2014-06-10T15:27:40.000+0200},
+  title = {What Do You Want to Collect from the Web?},
+  year = 2014
+}
+
+@inproceedings{arcomemTPDL12,
+  author = {Risse, Thomas and Dietze, Stefan and Peters, Wim and Doka, Katerina and Stavrakas, Yannis and Senellart, Pierre},
+  booktitle = {Theory and Practice of Digital Libraries},
+  doi = {10.1007/978-3-642-33290-6_47},
+  pages = {426--432},
+  title = {Exploiting the Social and Semantic Web for Guided Web Archiving},
+  year = 2012
+}
+
+@InProceedings{arcomemIPres13,
+  author = 	 {Vassilis Plachouras and Florent Carpentier and Julien Masanès and Thomas Risse and Pierre Senellart and Patrick Siehndel and Yannis Stavrakas},
+  title = 	 {An Architecture for Selective Web Harvesting: The Use Case of Heritrix},
+  booktitle =	 {Workshop on Archiving Community Memories },
+  year =	 2013,
+  note =	 {\url{http://www.inmis.gr/uploads/MyPublications/ipres_crawling.pdf}}}
+
+@article{olston2010,
+  author =	 {Christopher Olston and Marc Najork},
+  title =	 {Web Crawling},
+  publisher =	 {now publishing},
+  year =	 2010,
+  volume =	 4,
+  number =	 3,
+  journal =	 {Foundations and Trends in Information Retrieval},
+  pages =	 {175--246},
+  doi =		 {10.1561/1500000017},
+}
+
+@InProceedings{enhancedfocused,
+  title =	"Enhancing Focused Crawling with Genetic Algorithms",
+  author =	"Milad Shokouhi and Pirooz Chubak and Zaynab Raeesy",
+  publisher =	"IEEE Computer Society",
+  year = 	"2005",
+  bibdate =	"2005-07-01",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/itcc/itcc2005-2.html#ShokouhiCR05",
+  booktitle =	"ITCC (2)",
+  crossref =	"conf/itcc/2005-2",
+  pages =	"503--508",
+  URL =  	"http://dx.doi.org/10.1109/ITCC.2005.145",
+}
+@Article{focusedgenetic,
+  title =	"Focused Crawler Optimization Using Genetic Algorithm",
+  author =	"Hartanto Kusuma Wardana and H. Handoko and Banu
+		 Wirawan Yohanes",
+  publisher =	"Universitas Ahmad Dahlan",
+  year = 	"2011",
+  volume =	"9",
+  abstract =	"As the size of the Web continues to grow, searching it
+		 for useful information has become more difficult.
+		 Focused crawler intends to explore the Web conform to a
+		 specific topic. This paper discusses the problems
+		 caused by local searching algorithms. Crawler can be
+		 trapped within a limited Web community and overlook
+		 suitable Web pages outside its track. A genetic
+		 algorithm as a global searching algorithm is modified
+		 to address the problems. The genetic algorithm is used
+		 to optimize Web crawling and to select more suitable
+		 Web pages to be fetched by the crawler. Several
+		 evaluation experiments are conducted to examine the
+		 effectiveness of the approach. The crawler delivers
+		 collections consist of 3396 Web pages from 5390 links
+		 which had been visited, or filtering rate of
+		 Roulette-Wheel selection at 63% and precision level at
+		 93% in 5 different categories. The result showed that
+		 the utilization of genetic algorithm had empowered
+		 focused crawler to traverse the Web comprehensively,
+		 despite it relatively small collections. Furthermore,
+		 it brought up a great potential for building an
+		 exemplary collections compared to traditional focused
+		 crawling methods.{\par}",
+  ISSN = 	"1693-6930",
+  bibsource =	"OAI-PMH server at doaj.org",
+  identifier =	"1693-6930",
+  issue =	"3",
+  language =	"English; Indonesian",
+  oai =  	"oai:doaj.org/article:e9f8b4a4eba9495095353f688de4077c",
+  pages =	"403--410",
+  rights =	"CC BY-NC-ND",
+  source =	"TELKOMNIKA, Vol 9, Iss 3, Pp 403-410 (2011)",
+  subject =	"focused crawler; genetic algorithm; Web searching;
+		 LCC:Electronic computers. Computer science;
+		 LCC:QA75.5-76.95; LCC:Instruments and machines;
+		 LCC:QA71-90; LCC:Mathematics; LCC:QA1-939; LCC:Science;
+		 LCC:Q; DOAJ:Computer Science; DOAJ:Technology and
+		 Engineering; LCC:Electrical engineering. Electronics.
+		 Nuclear engineering; LCC:TK1-9971; LCC:Technology;
+		 LCC:T; DOAJ:Electrical and Nuclear Engineering;
+		 DOAJ:Technology and Engineering; LCC:Electronic
+		 computers. Computer science; LCC:QA75.5-76.95;
+		 LCC:Instruments and machines; LCC:QA71-90;
+		 LCC:Mathematics; LCC:QA1-939; LCC:Science; LCC:Q;
+		 DOAJ:Computer Science; DOAJ:Technology and Engineering;
+		 LCC:Electrical engineering. Electronics. Nuclear
+		 engineering; LCC:TK1-9971; LCC:Technology; LCC:T;
+		 DOAJ:Electrical and Nuclear Engineering;
+		 DOAJ:Technology and Engineering; LCC:Electronic
+		 computers. Computer science; LCC:QA75.5-76.95;
+		 LCC:Instruments and machines; LCC:QA71-90;
+		 LCC:Mathematics; LCC:QA1-939; LCC:Science; LCC:Q;
+		 LCC:Electrical engineering. Electronics. Nuclear
+		 engineering; LCC:TK1-9971; LCC:Technology; LCC:T;
+		 LCC:Electronic computers. Computer science;
+		 LCC:QA75.5-76.95; LCC:Instruments and machines;
+		 LCC:QA71-90; LCC:Mathematics; LCC:QA1-939; LCC:Science;
+		 LCC:Q; LCC:Electrical engineering. Electronics. Nuclear
+		 engineering; LCC:TK1-9971; LCC:Technology; LCC:T;
+		 LCC:Electronic computers. Computer science;
+		 LCC:QA75.5-76.95; LCC:Instruments and machines;
+		 LCC:QA71-90; LCC:Mathematics; LCC:QA1-939; LCC:Science;
+		 LCC:Q; LCC:Electrical engineering. Electronics. Nuclear
+		 engineering; LCC:TK1-9971; LCC:Technology; LCC:T",
+  URL =  	"http://doaj.org/search?source={\textbraceleft}{"}query{"}:{\textbraceleft}{"}bool{"}:{\textbraceleft}{"}must{"}:[{\textbraceleft}{"}term{"}:{"id":"e9f8b4a4eba9495095353f688de4077c"}{\textbraceright}]{\textbraceright}{\textbraceright}{\textbraceright};
+		 http://journal.uad.ac.id/index.php/TELKOMNIKA/article/view/1275",
+}
+@InProceedings{advances,
+  title =	"Advances in Clustering Search",
+  author =	"Tarc{\'i}sio Souza Costa and Alexandre C{\'e}sar Muniz
+		 de Oliveira and Luiz Antonio Nogueira Lorena",
+  bibdate =	"2011-06-16",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/softcomp/soco2010.html#CostaOL10",
+  booktitle =	"SOCO",
+  booktitle =	"Soft Computing Models in Industrial and Environmental
+		 Applications, 5th International Workshop ({SOCO} 2010),
+		 Guimar{\~a}es, Portugal, June 2010",
+  publisher =	"Springer",
+  year = 	"2010",
+  volume =	"73",
+  editor =	"Emilio Corchado and Paulo Novais and Cesar Analide and
+		 Javier Sedano",
+  ISBN = 	"978-3-642-13160-8",
+  pages =	"227--235",
+  series =	"Advances in Soft Computing",
+  URL =  	"http://dx.doi.org/10.1007/978-3-642-13161-5",
+}
+@Article{Gordon88,
+  author =	"M. Gordon",
+  title =	"Probabilistic and Genetic Algorithms for Document
+		 Retrieval",
+  journal =	"Comm. of the ACM",
+  volume =	"31",
+  number =	"10",
+  pages =	"1208",
+  month =	oct,
+  year = 	"1988",
+  keywords =	"information CACM",
+}
+@book{manning2008,
+ author = {Manning, Christopher D. and Raghavan, Prabhakar and Sch\"{u}tze, Hinrich},
+ title = {Introduction to Information Retrieval},
+ year = {2008},
+ isbn = {0521865719},
+ publisher = {Cambridge University Press},
+ address = {New York, NY, USA},
+} 
+
+
+@inproceedings{bergmark_focused_2002,
+  title =	 {Focused Crawls, Tunneling, and Digital Libraries},
+  booktitle =	 {Research and Advanced Technology for Digital
+                  Libraries},
+  publisher =	 {Springer},
+  author =	 {Bergmark, Donna and Lagoze, Carl and Sbityakov,
+                  Alex},
+  year =	 2002,
+  pages =	 {91--106}
+}
+
+@inproceedings{jialun_qin_building_2004,
+  title =	 {Building domain-specific Web collections for
+                  scientific digital libraries},
+  doi =		 {10.1109/JCDL.2004.1336110},
+  booktitle =	 {Joint {ACM/IEEE} Conference
+                  on Digital Libraries, 2004},
+  author =	 {Jialun Qin and Zhou, Y. and Chau, M.},
+  month =	 jun,
+  year =	 2004,
+  pages =	 {135--141}
+}
+
+@inproceedings{Diligenti2000,
+ author = {Diligenti, Michelangelo and Coetzee, Frans and Lawrence, Steve and Giles, C. Lee and Gori, Marco},
+ title = {Focused Crawling Using Context Graphs},
+ booktitle = {Conference on Very Large Data Bases},
+ year = {2000},
+ pages = {527--534},
+ numpages = {8},
+} 
+
+@article{batsakis_improving_2009,
+  title =	 {Improving the performance of focused web crawlers},
+  volume =	 68,
+  url =
+                  {http://www.sciencedirect.com/science/article/pii/S0169023X0900055X},
+  doi =		 {10.1016/j.datak.2009.04.002},
+  abstract =	 {This work addresses issues related to the design and
+                  implementation of focused crawlers. Several variants
+                  of state-of-the-art crawlers relying on web page
+                  content and link information for estimating the
+                  relevance of web pages to a given topic are
+                  proposed. Particular emphasis is given to crawlers
+                  capable of learning not only the content of relevant
+                  pages (as classic crawlers do) but also paths
+                  leading to relevant pages. A novel learning crawler
+                  inspired by a previously proposed Hidden Markov
+                  Model {(HMM)} crawler is described as well. The
+                  crawlers have been implemented using the same
+                  baseline implementation (only the priority
+                  assignment function differs in each crawler)
+                  providing an unbiased evaluation framework for a
+                  comparative analysis of their performance. All
+                  crawlers achieve their maximum performance when a
+                  combination of web page content and (link) anchor
+                  text is used for assigning download priorities to
+                  web pages. Furthermore, the new {HMM} crawler
+                  improved the performance of the original {HMM}
+                  crawler and also outperforms classic focused
+                  crawlers in searching for specialized topics.},
+  number =	 10,
+  journal =	 {Data \& Knowledge Engineering},
+  author =	 {Batsakis, Sotiris and Petrakis, Euripides {G.M.} and
+                  Milios, Evangelos},
+  month =	 oct,
+  year =	 2009,
+  pages =	 {1001--1013}
+}
+
+@ARTICLE{jiang_focus_2013,
+author={Jingtian Jiang and Xinying Song and Nenghai Yu and Chin-Yew Lin},
+journal={IEEE Transactions on Knowledge and Data Engineering},
+title={FoCUS: Learning to Crawl Web Forums},
+year=2013,
+month=jun,
+volume=25,
+number=6,
+pages={1293--1306},
+doi={10.1109/TKDE.2012.56}
+}
+
+@inproceedings{Boanjak:2012:TDF:2187980.2188266,
+ author = {Boanjak, Matko and Oliveira, Eduardo and Martins, Jos{\'e} and Mendes Rodrigues, Eduarda and Sarmento, Lu\'{\i}s},
+ title = {TwitterEcho: A Distributed Focused Crawler to Support Open Research with Twitter Data},
+ booktitle = {World Wide Web Conference Companion},
+ year = {2012},
+ location = {Lyon, France},
+ pages = {1233--1240},
+ numpages = {8},
+ doi = {10.1145/2187980.2188266}
+} 
+
+
+@incollection{psallidas2013,
+year=2013,
+booktitle={Web Information Systems Engineering 2013},
+doi={10.1007/978-3-642-41154-0_9},
+title={Soc Web: Efficient Monitoring of Social Network Activities},
+publisher={Springer},
+author={Psallidas, Fotis and Ntoulas, Alexandros and Delis, Alex},
+pages={118--136}
+}
+
+@INPROCEEDINGS{blackburn2013,
+author={Jeremy Blackburn and Adriana Iamnitchi.},
+booktitle={IEEE ICC'13 Workshop on Beyond Social Networks: Collective Awareness
+},
+title={An architecture for collecting longitudinal social data},
+year=2013,
+month={June},
+pages={184--188},
+doi={10.1109/ICCW.2013.6649225},}
+
+
+@article{chakrabarti99:focus,
+  title =	 "Focused crawling: a new approach to topic-specific
+                  Web resource discovery",
+  journal =	 "Computer Networks",
+  volume =	 31,
+  number =	 "11-16",
+  pages =	 "1623--1640",
+  year =	 1999,
+  doi =		 "10.1016/S1389-1286(99)00052-3",
+  author =	 "Soumen Chakrabarti and Martin van den Berg and Byron
+                  Dom"
+}
+
+@inproceedings{Aggarwal:2001:ICW:371920.371955,
+  author =	 {C. Aggarwal and F. Al-Garawi and P. S. Yu},
+  title =	 {Intelligent crawling on the World Wide Web with
+                  arbitrary predicates},
+  booktitle =	 {World Wide Web Conference},
+  year =	 2001,
+  location =	 {Hong Kong, Hong Kong},
+  pages =	 {96--105},
+  numpages =	 10,
+  doi =		 {10.1145/371920.371955},
+}
+
+@article{Menczer:2004:TWC:1031114.1031117,
+  author =	 {Filippo Menczer and Gautam Pant and Padmini
+                  Srinivasan},
+  title =	 {Topical Web Crawlers: Evaluating Adaptive
+                  Algorithms},
+  journal =	 {ACM Transactions on Internet Technology},
+  issn =	 {1533-5399},
+  doi =		 {10.1145/1031114.1031117},
+  publisher =	 {ACM},
+  address =	 {New York, NY, USA},
+  pages =	 {378--419},
+  year =	 2004,
+  volume =	 4,
+  month = 	 nov,
+  number =	 4
+}
+
+@article{Pant2005,
+ author = {Pant, Gautam and Srinivasan, Padmini},
+ title = {Learning to Crawl: Comparing Classification Schemes},
+ journal = {ACM Transactions on Information Systems},
+ issue_date = {October 2005},
+ volume = {23},
+ number = {4},
+ month = oct,
+ year = {2005},
+ pages = {430--462},
+ numpages = {33},
+ doi = {10.1145/1095872.1095875},
+ acmid = {1095875},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Topical crawlers, classifiers, focused crawlers, machine learning},
+} 
+
+
+@inproceedings{Ehrig2003,
+ author = {Ehrig, Marc and Maedche, Alexander},
+ title = {Ontology-focused Crawling of Web Documents},
+ booktitle = {ACM Symposium on Applied Computing},
+ year = {2003},
+ location = {Melbourne, Florida},
+ pages = {1174--1178},
+ numpages = {5},
+ doi = {10.1145/952532.952761},
+} 
+
+@article{Dong13,
+  author    = {Hai Dong and
+               Farookh Khadeer Hussain},
+  title     = {{SOF}: a semi-supervised ontology-learning-based focused crawler},
+  journal   = {Concurrency and Computation: Practice and Experience},
+  volume    = {25},
+  number    = {12},
+  year      = {2013},
+  pages     = {1755--1770},
+  ee        = {http://dx.doi.org/10.1002/cpe.2980},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+
+@TechReport{Prudhommeaux2008,
+  author =	"Eric Prud'hommeaux and Andy Seaborne",
+  title =	"{SPARQL} Query Language for {RDF}",
+  month =	jan,
+  note = 	"http://www.w3.org/TR/2008/REC-rdf-sparql-query-20080115/",
+  year = 	2008,
+  type = 	"{W3C} Recommendation",
+  institution =  "W3C",
+}
+
+
+
+@inproceedings{Quilitz:2008,
+ author = {Quilitz, Bastian and Leser, Ulf},
+ title = {Querying Distributed RDF Data Sources with SPARQL},
+ booktitle = {Proceedings of the 5th European Semantic Web Conference on The Semantic Web: Research and Applications},
+ series = {ESWC'08},
+ year = {2008},
+ isbn = {3-540-68233-3, 978-3-540-68233-2},
+ location = {Tenerife, Canary Islands, Spain},
+ pages = {524--538},
+ numpages = {15},
+ url = {http://dl.acm.org/citation.cfm?id=1789394.1789443},
+ acmid = {1789443},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+} 
+
+
+
+@inproceedings{weikum2011,
+  author    = {Gerhard Weikum and
+               Nikos Ntarmos and
+               Marc Spaniol and
+               Peter Triantafillou and
+               Andr{\'a}s A. Bencz{\'u}r and
+               Scott Kirkpatrick and
+               Philippe Rigaux and
+               Mark Williamson},
+  title     = {Longitudinal Analytics on Web Archive Data: It's About Time!},
+  booktitle = {Conference on Innovative Data
+               Systems Research (CIDR '11)},
+  year      = {2011},
+  pages     = {199--202},
+  ee        = {http://www.cidrdb.org/cidr2011/Papers/CIDR11_Paper26.pdf},
+}
+
+
+
+@inproceedings{PereiraMCM14,
+  author    = {Pedro Pereira and
+               Joaquim Macedo and
+               Olga Craveiro and
+               Henrique Madeira},
+  title     = {Time-Aware Focused Web Crawling},
+  booktitle = {Advances in Information Retrieval - 36th European Conference on {IR}
+               Research, {ECIR} 2014, Amsterdam, The Netherlands, April 13-16, 2014.
+               Proceedings},
+  year      = {2014},
+  pages     = {534--539},
+  doi       = {10.1007/978-3-319-06028-6_53}
+}
+
+@inproceedings{salaheldeen2012,
+year={2012},
+booktitle={Theory and Practice of Digital Libraries},
+doi={10.1007/978-3-642-33290-6_14},
+title={Losing My Revolution: How Many Resources Shared on Social Media Have Been Lost?},
+publisher={Springer Berlin Heidelberg},
+keywords={Web Archiving; Social Media; Digital Preservation},
+author={SalahEldeen, Hany M. and Nelson, Michael L.},
+pages={125--137}
+}
+
+
+@inproceedings{Yang:2012,
+ author = {Yang, Seungwon and Chitturi, Kiran and Wilson, Gregory and Magdy, Mohamed and Fox, Edward A.},
+ title = {A Study of Automation from Seed {URL} Generation to Focused Web Archive Development: The {CTRnet} Context},
+ booktitle = {Proceedings of the 12th ACM/IEEE-CS Joint Conference on Digital Libraries},
+ series = {JCDL '12},
+ year = {2012},
+ pages = {341--342},
+ numpages = {2},
+ doi = {10.1145/2232817.2232881},
+} 
+
+
+@article{PlachourasC0MRSSS14,
+  author    = {Vassilis Plachouras and
+               Florent Carpentier and
+               Muhammad Faheem and
+               Julien Masan{\`{e}}s and
+               Thomas Risse and
+               Pierre Senellart and
+               Patrick Siehndel and
+               Yannis Stavrakas},
+  title     = {{ARCOMEM} Crawling Architecture},
+  journal   = {Future Internet},
+  year      = {2014},
+  volume    = {6},
+  number    = {3},
+  pages     = {518--541},
+  url       = {http://dx.doi.org/10.3390/fi6030518},
+  doi       = {10.3390/fi6030518},
+  timestamp = {Thu, 30 Oct 2014 15:53:44 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/fi/PlachourasC0MRSSS14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{Cho:2000,
+ author = {Cho, Junghoo and Garcia-Molina, Hector},
+ title = {Synchronizing a Database to Improve Freshness},
+ booktitle = {Proceedings of the 2000 ACM SIGMOD International Conference on Management of Data},
+ series = {SIGMOD '00},
+ year = {2000},
+ isbn = {1-58113-217-4},
+ location = {Dallas, Texas, USA},
+ pages = {117--128},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/342009.335391},
+ doi = {10.1145/342009.335391},
+ acmid = {335391},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{Dasdan:2009,
+ author = {Dasdan, Ali and Huynh, Xinh},
+ title = {User-centric Content Freshness Metrics for Search Engines},
+ booktitle = {Proceedings of the 18th International Conference on World Wide Web},
+ series = {WWW '09},
+ year = {2009},
+ isbn = {978-1-60558-487-4},
+ location = {Madrid, Spain},
+ pages = {1129--1130},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/1526709.1526891},
+ doi = {10.1145/1526709.1526891},
+ acmid = {1526891},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {crawling, document age, freshness, latency, metrics, monitoring, search engine},
+} 
+
+
+@article{Liu:2005,
+ author = {Liu, Haifeng and Ng, Wee-Keong and Lim, Ee-Peng},
+ title = {Scheduling Queries to Improve the Freshness of a Website},
+ journal = {World Wide Web},
+ issue_date = {March 2005},
+ volume = {8},
+ number = {1},
+ month = mar,
+ year = {2005},
+ issn = {1386-145X},
+ pages = {61--90},
+ numpages = {30},
+ url = {http://dx.doi.org/10.1023/B:WWWJ.0000047378.69751.72},
+ doi = {10.1023/B:WWWJ.0000047378.69751.72},
+ acmid = {1031330},
+ publisher = {Kluwer Academic Publishers},
+ address = {Hingham, MA, USA},
+ keywords = {Internet data management, hard real-time scheduling, query optimization, view maintenance},
+} 
+
+@inproceedings{Bouzeghoub:2004,
+ author = {Bouzeghoub, Mokrane},
+ title = {A Framework for Analysis of Data Freshness},
+ booktitle = {Proceedings of the 2004 International Workshop on Information Quality in Information Systems},
+ series = {IQIS '04},
+ year = {2004},
+ pages = {59--67},
+ doi = {10.1145/1012453.1012464},
+} 
+
+
+@article{Wang:1996,
+ author = {Wang, Richard Y. and Strong, Diane M.},
+ title = {Beyond Accuracy: What Data Quality Means to Data Consumers},
+ journal = {J. Manage. Inf. Syst.},
+ issue_date = {March 1996},
+ volume = {12},
+ number = {4},
+ month = mar,
+ year = {1996},
+ issn = {0742-1222},
+ pages = {5--33},
+ numpages = {29},
+ url = {http://dl.acm.org/citation.cfm?id=1189570.1189572},
+ acmid = {1189572},
+ publisher = {M. E. Sharpe, Inc.},
+ address = {Armonk, NY, USA},
+ keywords = {data administration, data quality, database systems},
+} 
+
+@inproceedings{Dai:2010,
+ author = {Dai, Na and Davison, Brian D.},
+ title = {Capturing Page Freshness for Web Search},
+ booktitle = {Proceedings of the 33rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ series = {SIGIR '10},
+ year = {2010},
+ isbn = {978-1-4503-0153-4},
+ location = {Geneva, Switzerland},
+ pages = {871--872},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/1835449.1835658},
+ doi = {10.1145/1835449.1835658},
+ acmid = {1835658},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {temporal correlation, web freshness, web search},
+} 
+
+
+@inproceedings{Tannier14,
+  author    = {Xavier Tannier},
+  title     = {Extracting News Web Page Creation Time with {DCTFinder}},
+  booktitle = {Proceedings of the Ninth International Conference on Language Resources
+               and Evaluation (LREC-2014), Reykjavik, Iceland, May 26-31, 2014.},
+  year      = {2014},
+  pages     = {2037--2042},
+  timestamp = {Mon, 03 Nov 2014 16:42:50 +0100},
+}
+
+@InBook{DL2012,
+  author = 	 {Deborah Lupton},
+  title = 	 {Public Sociology: An Introduction to Australian Society},
+  chapter = 	 {Digital Sociology: An Introduction},
+  publisher = 	 {Allen \& Unwin},
+  year = 	 2012,
+}
+
+
+@article{RisseFI:2014,
+ author = {Risse, Thomas  and  Demidova, Elena  and   Dietze, Stefan  and   Peters , Wim
+ and   Papailiou, Nikolaos  and   Doka, Katerina and  Stavrakas , Yannis
+ and   Plachouras , Vassilis and   Senellart, Pierre  and   Carpentier , Florent
+ and   Mantrach, Amin and   Cautis, Bogdan  and   Siehndel, Patrick and   Spiliotopoulos , Dimitris},
+ title = {The {ARCOMEM} Architecture for Social- and Semantic-Driven Web Archiving},
+ journal = {Future Internet},
+ volume = {6},
+ number = {4},
+ year = {2014},
+ issn = {1999-5903},
+ pages = {688--716},
+ publisher = {MDPI - Open Access Publishing},
+ address = {Armonk, NY, USA},
+ 
+} 
+
+@InProceedings{Laranjeira2014,
+  author = {Bruno Laranjeira and Viviane Moreira and Aline Villavicencio and Carlos Ramisch and Maria José Finatto},
+  title = {Comparing the Quality of Focused Crawlers and of the Translation Resources Obtained from them},
+  booktitle = {Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)},
+  year = {2014},
+  date = {26--31},
+  address = {Reykjavik, Iceland},
+  language = {english}
+ } 
+
+@inproceedings{pant_deriving_2003,
+	address = {New York, {NY}, {USA}},
+	series = {{DMKD} '03},
+	title = {Deriving link-context from {HTML} tag tree},
+	doi = {10.1145/882082.882094},
+	booktitle = {Proceedings of the 8th {ACM} {SIGMOD} workshop on Research issues in data mining and knowledge discovery},
+	publisher = {{ACM}},
+	author = {Pant, Gautam},
+	year = {2003},
+	pages = {49--55}
+}
+
+@misc{nutch,
+
+  title =	 "{Apache Nutch:} {Highly extensible, highly scalable Web crawler}",
+  key = 	 {},
+  howpublished =
+                  "Available online: \url{http://nutch.apache.org/} (accessed on 23 October 2014)."
+}
+
+
+
+@misc{dong2011Google,
+  title={Incorporating Recency in Network Search Using Machine Learning},
+  author={Dong, A. and Chang, Y. and Zhang, R. and Zheng, Z. and Mishne, G.A. and Bai, J. and Buchner, K.B. and Liao, C. and Ji, S. and Leung, G. and others},
+  year={2011},
+  month=apr # "~21",
+  publisher={Google Patents},
+  note={US Patent App. 12/579,855}
+}
+
+
+
+@inproceedings{Abiteboul2003,
+ author = {Abiteboul, Serge and Preda, Mihai and Cobena, Gregory},
+ title = {Adaptive On-line Page Importance Computation},
+ booktitle = {Proceedings of the 12th International Conference on World Wide Web},
+ series = {WWW '03},
+ year = {2003},
+ pages = {280--290},
+ numpages = {11},
+ doi = {10.1145/775152.775192}
+} 
+
+@inproceedings{pageRank,
+ author = {Brin, Sergey and Page, Lawrence},
+ title = {The anatomy of a large-scale hypertextual Web search engine},
+ booktitle = {Proceedings of the seventh international conference on World Wide Web 7},
+ series = {WWW7},
+ year = {1998},
+ pages = {107--117},
+} 
+
+@INPROCEEDINGS{ShaozhiYe2010,
+author={Shaozhi Ye and Juan Lang and Felix Wu},
+booktitle={Web Conference (APWEB), 2010 12th International Asia-Pacific},
+title={Crawling Online Social Graphs},
+year={2010},
+month={April},
+pages={236--242},
+doi={10.1109/APWeb.2010.10},}
+
+
+@ARTICLE{Aiello2013,
+author={Aiello, L.M. and Petkos, G. and Martin, C. and Corney, D. and Papadopoulos, S. and Skraba, R. and Goker, A. and Kompatsiaris, I. and Jaimes, A.},
+journal={IEEE Transactions on Multimedia},
+title={Sensing Trending Topics in Twitter},
+year={2013},
+month={Oct},
+volume={15},
+number={6},
+pages={1268--1282},
+doi={10.1109/TMM.2013.2265080},}
+
+
+@article{Baykan:2013,
+ author = {Baykan, Eda and Henzinger, Monika and Weber, Ingmar},
+ title = {A Comprehensive Study of Techniques for {URL}-Based Web Page Language Classification},
+ journal = {ACM Trans. Web},
+ issue_date = {March 2013},
+ volume = {7},
+ number = {1},
+ month = mar,
+ year = {2013},
+ issn = {1559-1131},
+ pages = {3:1--3:37},
+ articleno = {3},
+ numpages = {37},
+ doi = {10.1145/2435215.2435218},
+ acmid = {2435218},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Document and text processing, URL, Web page classification, language classification},
+} 
+@article{Baykan:2011,
+ author = {Baykan, Eda and Henzinger, Monika and Marian, Ludmila and Weber, Ingmar},
+ title = {A Comprehensive Study of Features and Algorithms for {URL}-Based Topic Classification},
+ journal = {ACM Trans. Web},
+ issue_date = {July 2011},
+ volume = {5},
+ number = {3},
+ month = jul,
+ year = {2011},
+ issn = {1559-1131},
+ pages = {15:1--15:29},
+ articleno = {15},
+ numpages = {29},
+ doi = {10.1145/1993053.1993057},
+ acmid = {1993057},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {ODP, Topic classification, URL},
+} 
+
+@article{Baykan:2008,
+ author = {Baykan, Eda and Henzinger, Monika and Weber, Ingmar},
+ title = {Web Page Language Identification Based on {URLs}},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {August 2008},
+ volume = {1},
+ number = {1},
+ month = aug,
+ year = {2008},
+ issn = {2150-8097},
+ pages = {176--187},
+ numpages = {12},
+ doi = {10.14778/1453856.1453880},
+ acmid = {1453880},
+ publisher = {VLDB Endowment},
+} 
+
+@inproceedings{Anastacio:2009,
+ author = {Anast\'{a}cio, Ivo and Martins, Bruno and Calado, P\'{a}vel},
+ title = {Classifying Documents According to Locational Relevance},
+ booktitle = {Proceedings of the 14th Portuguese Conference on Artificial Intelligence: Progress in Artificial Intelligence},
+ series = {EPIA '09},
+ year = {2009},
+ isbn = {978-3-642-04685-8},
+ location = {Aveiro, Portugal},
+ pages = {598--609},
+ numpages = {12},
+ doi = {10.1007/978-3-642-04686-5_49},
+ acmid = {1692250},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+ keywords = {Document Classification, Geographic Text Mining},
+} 
+
+
+@incollection{URLFeatures12,
+year={2012},
+isbn={978-3-642-28794-7},
+booktitle={Trends in Practical Applications of Agents and Multiagent Systems},
+volume={157},
+series={Advances in Intelligent and Soft Computing},
+editor={Rodr{\'i}guez, Juan M. Corchado and P{\'e}rez, Javier Bajo and Golinska, Paulina and Giroux, Sylvain and Corchuelo, Rafael},
+doi={10.1007/978-3-642-28795-4_13},
+title={An Experiment to Test {URL} Features for Web Page Classification},
+publisher={Springer Berlin Heidelberg},
+author={Hern{\'a}ndez, Inma and Rivero, CarlosR. and Ruiz, David and Arjona, Jos{\'e} Luis},
+pages={109-116},
+language={English}
+}
+@misc{Brugger14,
+title = "Probing a nation's web sphere: A new approach to web history and a new kind of historical source",
+author = "Niels Br{\"u}gger",
+year = "2014",
+booktitle = "Paper presented at Communication and the �Good Life�, the International Communication Association (ICA), 
+the 64th Annual Conference of the International Communication Association, Seattle, USA.",
+
+}
+
+@inproceedings{Abramson:2012,
+	author = {Myriam Abramson and David Aha},
+	title = {What's in a {URL}? Genre Classification from {URLs}},
+
+	conference = {},
+  booktitle =    {AAAI workshop om Intelligent Techniques for Web Personalization and Recommender Systems },
+	year = {2012},
+	keywords = {Genre Classification; n-grams; URL; Naive Bayes},
+	abstract = {The importance of URLs in the representation of a document cannot be overstated. Shorthand mnemonics such as ``wiki'' or ``blog'' are often embedded in a URL to convey its functional purpose or genre. Other mnemonics have evolved from use (e.g., a Wordpress particle is strongly suggestive of blogs). Can we leverage from this predictive power to induce the genre of a document from the representation of a URL? This paper presents a methodology for webpage genre classification from URLs which, to our knowledge, has not been previously attempted. Experiments using machine learning techniques to evaluate this claim show promising results and a novel algorithm for character n-gram decomposition is provided. Such a capability could be useful to improve personalized search results, disambiguate content, efficiently crawl the Web in search of relevant documents, and construct behavioral profiles from clickstream data without parsing the entire document.}
+
+	
+}
+
+@inproceedings{Kan:2005,
+ author = {Kan, Min-Yen and Thi, Hoang Oanh Nguyen},
+ title = {Fast Webpage Classification Using {URL} Features},
+ booktitle = {Proceedings of the 14th ACM International Conference on Information and Knowledge Management},
+ series = {CIKM '05},
+ year = {2005},
+ isbn = {1-59593-140-6},
+ location = {Bremen, Germany},
+ pages = {325--326},
+ numpages = {2},
+ doi = {10.1145/1099554.1099649},
+ acmid = {1099649},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {uniform resource locator, webpage classification},
+} 
+@InCollection{genetic1,
+  title =	"Recombination Operators in Genetic Algorithm - Based
+		 Crawler: Study and Experimental Appraisal",
+  author =	"Huynh Thi Thanh Binh and Ha Minh Long and Tran Duc
+		 Khanh",
+  bibdate =	"2014-03-28",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/series/sci/sci457.html#BinhLK13",
+  booktitle =	"Advanced Methods for Computational Collective
+		 Intelligence",
+  publisher =	"Springer",
+  year = 	"2013",
+  volume =	"457",
+  editor =	"Ngoc Thanh Nguyen and Bogdan Trawinski and Radoslaw
+		 Katarzyniak and GeunSik Jo",
+  ISBN = 	"978-3-642-34299-8",
+  pages =	"239--248",
+  series =	"Studies in Computational Intelligence",
+  URL =  	"http://dx.doi.org/10.1007/978-3-642-34300-1",
+}
+@Article{genetic3,
+  title =	"A Framework for Deep Web Crawler Using Genetic
+		 Algorithm",
+  author =	"K. F. Bharati and Prof.P. Premchand and Prof.A.
+		 Govardhan and Dr.K. Anuradha and Dr.N. Sandhya",
+  publisher =	"Buldanshahr : IJECSE",
+  year = 	"2013",
+  abstract =	"The Web has become one of the largest and most readily
+		 accessible repositories of human knowledge. The
+		 traditional search engines index only surface Web whose
+		 pages are easily found. The focus has now been moved to
+		 invisible Web or hidden Web, which consists of a large
+		 warehouse of useful data such as images, sounds,
+		 presentations and many other types of media. To use
+		 such data, there is a need for specialized technique to
+		 locate those sites as we do with search engines. This
+		 paper focuses on an effective design of a Hidden Web
+		 Crawler that can automatically discover pages from the
+		 Hidden Web by employing multi- agent Web mining system.
+		 A framework for deep web with genetic algorithm is used
+		 to discover the resource discovery problem and the
+		 results show the improvement in the crawling strategy
+		 and harvest rate.",
+  ISSN = 	"22771956",
+  bibsource =	"OAI-PMH server at www.doaj.org",
+  oai =  	"oai:doaj-articles:f63cedb7df236258861d3884eb7782e3",
+  source =	"International Journal of Electronics and Computer
+		 Science Engineering",
+  subject =	"Hidden Web Crawler; Reinforcement Learning;
+		 Multi-Agents; Web Mining; Information Retrieval.",
+  URL =  	"http://www.ijecse.org/wp-content/uploads/2013/03/Volume-2Number-2PP-602-609.pdf;
+		 http://www.doaj.org/doaj?func=openurl\&genre=article\&issn=22771956\&date=2013\&volume=2\&issue=2\&spage=602",
+}
+@InProceedings{genetic2,
+  title =	"Enhancing Focused Crawling with Genetic Algorithms",
+  author =	"Milad Shokouhi and Pirooz Chubak and Zaynab Raeesy",
+  publisher =	"IEEE Computer Society",
+  year = 	"2005",
+  bibdate =	"2005-07-01",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/itcc/itcc2005-2.html#ShokouhiCR05",
+  booktitle =	"ITCC (2)",
+  crossref =	"conf/itcc/2005-2",
+  pages =	"503--508",
+  URL =  	"http://dx.doi.org/10.1109/ITCC.2005.145",
+}
+@article{costa2014,
+  abstract = {Clustering Search (*CS) has been proposed as a generic way of combining search metaheuristics with clustering to detect promising search areas before applying local search procedures. The clustering process may keep representative solutions associated with different search subspaces. In this paper, new approaches are proposed, based on *CS, as an Artificial Bee Colony-based one, which detects promising food sources alike *CS approaches. The other new *CS approach is based on Differential Evolution (DE) algorithm. The DE is just a CS component (the evolutionary algorithm), different from ABC-based approach, called Artificial Bee Clustering Search (ABCS). ABCS tries to find promising solutions using some concepts from CS. The proposed hybrid algorithms, performing a Hooke and Jeeves-based local, are compared to another hybrid approaches, exploring an elitist criteria to apply local search. The experiments show that the proposed ABCS and Differential Evolutionary Clustering Search (DECS) are competitive for the majority continuous optimization functions benckmarks selected in this paper.},
+  added-at = {2015-03-31T01:08:34.000+0200},
+  author = {Costa, Tarcísio Souza and de Oliveira, Alexandre Cesar Muniz},
+  biburl = {http://www.bibsonomy.org/bibtex/21512f70ac529d476333e46dcd00e96f2/souza},
+  doi = {10.1007/s00500-014-1500-9},
+  interhash = {b431ae556008060275bcbd633fd96f6b},
+  intrahash = {1512f70ac529d476333e46dcd00e96f2},
+  issn = {1432-7643},
+  journal = {Soft Computing},
+  keywords = {artificial bee clustering search tarcísio},
+  language = {English},
+  pages = {1-12},
+  publisher = {Springer Berlin Heidelberg},
+  timestamp = {2015-03-31T01:08:34.000+0200},
+  title = {Artificial bee and differential evolution improved by clustering search on continuous domain optimization},
+  url = {http://dx.doi.org/10.1007/s00500-014-1500-9},
+  year = 2014
+}
+@InProceedings{costaiwann13,
+  title =	"Artificial Bee Clustering Search",
+  author =	"Tarc{\'i}sio Souza Costa and Alexandre C{\'e}sar Muniz
+		 de Oliveira",
+  bibdate =	"2013-06-25",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/iwann/iwann2013-2.html#CostaO13",
+  booktitle =	"IWANN (2)",
+  booktitle =	"Advances in Computational Intelligence - 12th
+		 International Work-Conference on Artificial Neural
+		 Networks, {IWANN} 2013, Puerto de la Cruz, Tenerife,
+		 Spain, June 12-14, 2013, Proceedings, Part {II}",
+  publisher =	"Springer",
+  year = 	"2013",
+  volume =	"7903",
+  editor =	"Ignacio Rojas and Gonzalo Joya Caparr{\'o}s and Joan
+		 Cabestany",
+  ISBN = 	"978-3-642-38681-7",
+  pages =	"20--27",
+  series =	"Lecture Notes in Computer Science",
+  URL =  	"http://dx.doi.org/10.1007/978-3-642-38682-4",
+}
+@inproceedings{Hernandez:2012,
+ author = {Hern\'{a}ndez, Inma and Rivero, Carlos R. and Ruiz, David and Corchuelo, Rafael},
+ title = {A Statistical Approach to {URL}-based Web Page Clustering},
+ booktitle = {Proceedings of the 21st International Conference Companion on World Wide Web},
+ series = {WWW '12 Companion},
+ year = {2012},
+ isbn = {978-1-4503-1230-1},
+ location = {Lyon, France},
+ pages = {525--526},
+ numpages = {2},
+ doi = {10.1145/2187980.2188109},
+ acmid = {2188109},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {URL classification, URL patterns, web page clustering},
+} 
+
+@inproceedings{Zhao:2013,
+ author = {Zhao, Peilin and Hoi, Steven C.H.},
+ title = {Cost-sensitive Online Active Learning with Application to Malicious {URL} Detection},
+ booktitle = {Proceedings of the 19th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+ series = {KDD '13},
+ year = {2013},
+ isbn = {978-1-4503-2174-7},
+ location = {Chicago, Illinois, USA},
+ pages = {919--927},
+ numpages = {9},
+ doi = {10.1145/2487575.2487647},
+ acmid = {2487647},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {active learning, cost-sensitive learning, malicious url detection, online learning},
+} 
+
+@article{Hernandez2014168,
+title = "{CALA}: An unsupervised {URL}-based web page classification system ",
+journal = "Knowledge-Based Systems ",
+volume = "57",
+number = "0",
+pages = "168--180",
+year = "2014",
+issn = "0950-7051",
+doi = "10.1016/j.knosys.2013.12.019",
+url = "http://www.sciencedirect.com/science/article/pii/S0950705113003997",
+author = "Inma Hernández and Carlos R. Rivero and David Ruiz and Rafael Corchuelo"
+}
+
+@inproceedings{Koppula:2010,
+ author = {Koppula, Hema Swetha and Leela, Krishna P. and Agarwal, Amit and Chitrapura, Krishna Prasad and Garg, Sachin and Sasturkar, Amit},
+ title = {Learning {URL} Patterns for Webpage De-duplication},
+ booktitle = {Proceedings of the Third ACM International Conference on Web Search and Data Mining},
+ series = {WSDM '10},
+ year = {2010},
+ isbn = {978-1-60558-889-6},
+ location = {New York, New York, USA},
+ pages = {381--390},
+ numpages = {10},
+ doi = {10.1145/1718487.1718535},
+ acmid = {1718535},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {decision trees, generalization, mapreduce, page importance, search engines, site-specific delimiters, webpage de-duplication},
+}
+
+@inproceedings{Craswell:2001,
+ author = {Craswell, Nick and Hawking, David and Robertson, Stephen},
+ title = {Effective Site Finding Using Link Anchor Information},
+ booktitle = {Proceedings of the 24th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ series = {SIGIR '01},
+ year = {2001},
+ isbn = {1-58113-331-6},
+ location = {New Orleans, Louisiana, USA},
+ pages = {250--257},
+ numpages = {8},
+ doi = {10.1145/383952.383999},
+ acmid = {383999},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@inproceedings{Raju:2012,
+ author = {Raju, Santosh and Udupa, Raghavendra},
+ title = {Extracting Advertising Keywords from {URL} Strings},
+ booktitle = {Proceedings of the 21st International Conference Companion on World Wide Web},
+ series = {WWW '12 Companion},
+ year = {2012},
+ isbn = {978-1-4503-1230-1},
+ location = {Lyon, France},
+ pages = {587--588},
+ numpages = {2},
+ doi = {10.1145/2187980.2188140},
+ acmid = {2188140},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {URL, contextual advertising, keyword extraction},
+}
+
+@inproceedings{hernandez:2011,
+year={2011},
+isbn={978-3-642-25273-0},
+booktitle={Advances in Artificial Intelligence},
+volume={7023},
+series={Lecture Notes in Computer Science},
+editor={Lozano, Jose A. and G{\'a}mez, Jos{\'e} A. and Moreno, Jos{\'e} A.},
+doi={10.1007/978-3-642-25274-7_45},
+title={A Tool for Link-Based Web Page Classification},
+publisher={Springer Berlin Heidelberg},
+keywords={Crawling; Web Page Classification; Virtual Integration},
+author={Hern{\'a}ndez, Inma and Rivero, Carlos R. and Ruiz, David and Corchuelo, Rafael},
+pages={443-452},
+language={English}
+}
+
+@Article{hooke,
+  author = {R. Hooke and T. A. Jeeves},
+  title ={Direct search solution of numerical and statistical problems},
+  journal = {J. Assoc. Comput. Mach.},
+  year = {1961},
+  volume = {8},
+  pages = {212-229},
+  keywords = {NLS},
+}
+
+@Book{garey,
+  author ="M. R. Garey and D. S. Johnson",
+  title ="Computers and Intractability ({A} Guide to Theory of {NP}-Completeness)",
+  publisher = "Freeman",
+  year = "1979",
+  address = "New York",
+  pages = "340",
+}
+
+@Article{glover,
+  author ="F. Glover",
+  title ="Future paths for Integer Programming and Links to Artificial Intelligence",
+  journal = "Computers and Operations Research",
+  volume = "5",
+  year = "1986",
+  pages = "533--549",
+  bibsource = "http://www.visionbib.com/bibliography/match569.html#TT48381",
+}
+
+@Article{holland,
+  title ="Outline for a Logical Theory of Adaptive Systems",
+  author ="John H. Holland",
+  journal ="J. ACM",
+  year = "1962",
+  number ="3",
+  volume ="9",
+  bibdate ="2003-11-20",
+  bibsource ="DBLP, http://dblp.uni-trier.de/db/journals/jacm/jacm9.html#Holland62",
+  pages ="297--314",
+  URL ="http://doi.acm.org/10.1145/321127.321128",
+}
+
+@Book{holland2,
+  author = "John H. Holland",
+  title = "Adaptation in Natural and Artificial Systems",
+  publisher = "The University of Michigan Press",
+  address = "Ann Arbor, Michigan",
+  year = "1975",
+}
+
+
+
+@Book{holland3,
+  author =	"John H. Holland",
+  title =	"Adaptation in natural and artificial systems: an
+		 introductory analysis with applications to biology,
+		 control, and artificial intelligence",
+  year = 	"1992",
+  publisher =	"MIT Press",
+}
+
+
+@TechReport{Rechenberg65,
+  author =	"Ingo Rechenberg",
+  title =	"Cybernetic solution path of an experimental problem",
+  institution =  "Royal Air Force Establishment",
+  year = 	"1965",
+}
+
+@Book{Rechenberg1973,
+  author =	"Ingo Rechenberg",
+  title =	"Evolutionsstrategie",
+  publisher =	"Friedrich Frommann Verlag (G{\"u}nther Holzboog KG)",
+  address =	"Stuttgart",
+  year = 	"1973",
+  volume =	"15",
+  series =	"problemata",
+}
+
+@InProceedings{Fogel62,
+  title =	"Toward Inductive Inference Automata",
+  author =	"L. J. Fogel",
+  year = 	"1962",
+  bibdate =	"2002-01-03",
+  bibsource =	"DBLP,http://dblp.uni-trier.de/db/conf/ifip/ifip1962.html#Fogel62",
+  booktitle =	"IFIP Congress",
+  pages =	"395--400",
+}
+
+@Book{Fogel66,
+  author =	"L. J. Fogel and A. J. Owens and M. J. Walsh",
+  title =	"Artificial Intelligence through Simulated Evolution",
+  publisher =	"John Wiley \& Sons",
+  address =	"New York",
+  year = 	"1966",
+}
+
+@InCollection{koza,
+  author =	"John R. Koza",
+  title =	"Introduction to genetic programming",
+  booktitle =	"Advances in Genetic Programming",
+  publisher =	"MIT Press",
+  year = 	"1994",
+  editor =	"Kenneth E. {Kinnear, Jr.}",
+  pages =	"21--42",
+  chapter =	"2",
+  address =	"Cambridge, MA, USA",
+  keywords =	"genetic algorithms, genetic programming",
+  URL =  	"http://www.genetic-programming.com/jkpdf/aigp1994intro.pdf",
+  size = 	"22 pages",
+}
+
+@Article{talbi-taxonomy,
+  author = {E-G. Talbi},
+  title ={A Taxonomy of Hybrid Metaheuristics},
+  journal = {Journal of Heuristics},
+  year = {2002},
+  volume = {8},
+  pages = {541-564},
+}
+
+@TechReport{Moscato89,
+  title ="On Evolution, Search, Optimization, Genetic Algorithms and Martial Arts: Towards Memetic Algorithms",
+  author ="P. Moscato",
+  number ="Caltech Concurrent Computation Program, Report. 826",
+  institution =  "California Institute of Technology",
+  address ="Pasadena, California, USA",
+  year ="1989",
+}
+
+@TechReport{GAlib,
+  title ="A C++ Library of genetic algorithms component",
+  author ="Matthew Wall",
+  number ="Mechanical Engineering Department",
+  institution =  " Massachusetts Institute of Technology",
+  year ="1996",
+}
+
+
+@Book{talbi-book,
+  title ="Metaheuristics - From Design to Implementation",
+  author ="El-Ghazali Talbi",
+  publisher ="Wiley",
+  year ="2009",
+  bibdate ="2011-02-09",
+  ISBN ="978-0-470-27858-1",
+  pages ="I--XXIX, 1--593",
+}
+
+@Misc{Goldberg,
+  title ="A Survey of Hybrid Genetic and Evolutionary Algorithms",
+  author ="Abhishek Sinha and David E. Goldberg",
+  year ="2003",
+  bibsource ="OAI-PMH server at cs1.ist.psu.edu",
+  language ="en",
+  oai ="oai:CiteSeerPSU:659509",
+  rights ="unrestricted",
+  URL ="http://citeseer.ist.psu.edu/659509.html;ftp://ftp-illigal.ge.uiuc.edu/pub/papers/IlliGALs/2003004.ps.Z",
+}
+
+@Conference{Jadhav,
+  author = "D. G. Jadhav and others",
+  title ="Approximate Memetic Algorithm For Consistent Convergence",
+  booktitle = "NCCI - National Conference on Computational Instrumentation",
+  year = "2010",
+}
+
+@Article{Garg,
+  title ="A Comparison between Memetic algorithm and Genetic algorithm for the cryptanalysis of Simplified Data Encryption Standard algorithm",
+  author ="Poonam Garg",
+  journal ="CoRR",
+  year = "2010",
+  volume = "abs/1004.0574",
+  bibdate ="2011-12-05",
+  bibsource ="DBLP,http://dblp.uni-trier.de/db/journals/corr/corr1004.html#abs-1004-0574",
+  URL = "http://arxiv.org/abs/1004.0574",
+}
+
+@Article{Tami,
+  title ="An enhanced genetic algorithm with simulated annealing for job-shop scheduling",
+  author ="A. Tamilarasi and A.T. Kumar",
+  journal ="International Journal of Engineering, Science and Technology",
+  year = "2010",
+  volume = "2",
+  pages = "144-151",
+}
+
+@PHDTHESIS{acmo-tese,
+  author ="A.C.M. Oliveira",
+  title ="Algoritmos Evolutivos H�bridos com Detec��o de Regi�es Promissoras em Espa�os de Busca Cont�nuos e Discretos",
+  school ="INPE - Instituto Nacional de Pesquisas Espaciais.",
+  adress ="S�o Jos� dos Campos-SP, Brazil",
+  year = "2004", }
+
+@Article{csbap,
+  title =	"Clustering Search for the Berth Allocation Problem",
+  author =	"R. M. Oliveira and G. R. Mauri and L.A.N. Lorena",
+  journal =	"Expert Syst. Appl",
+  year = 	"2012",
+  number =	"5",
+  volume =	"39",
+  bibdate =	"2012-02-06",
+  bibsource =	"DBLP,http://dblp.uni-trier.de/db/journals/eswa/eswa39.html#OliveiraML12",
+  pages =	"5499--5505",
+  URL =  	"http://dx.doi.org/10.1016/j.eswa.2011.11.072",
+}
+
+@Article{harmony,
+  title =	"Utilizando o Harmony Search e Cluster Search para Resolver o Problema de Balanceamento de Linha de Produ��o para Centros de Trabalho de Pessoas com Defici�ncia",
+  author =	"R. T. da Silva, A. A. Chaves, G. J. de Sena e J. M. Junior",
+  journal =	"XLIII Simp�sio Brasileiro de Pesquisa Operacional",
+  year = 	"2011",
+}
+
+@Article{sbiaCS,
+  title ="Detecting promising areas by evolutionary clustering search",
+  author ="A.C.M Oliveira and L.A.N Lorena",
+  year ="2004",
+  journal = "XVII Brazilian Symposium on Artificial Intelligence - SBIA'04",
+  bibsource ="OAI-PMH server at www.lbd.dcc.ufmg.br",
+  coverage ="S�o Luis, MA, Brasil",
+  identifier ="sbia2004article018",
+  language ="eng",
+  rights ="Sociedade Brasileira de Computa��o",
+  source ="sbia2004",
+}
+
+@incollection {hybridCS,
+   author = "A.C.M Oliveira and L.A.N. Lorena",
+   title = "Hybrid Evolutionary Algorithms and Clustering Search",
+   booktitle = "Hybrid Evolutionary Algorithms",
+   series = "Studies in Computational Intelligence",
+   editor = "Abraham, Ajith and Grosan, Crina and Ishibuchi, Hisao",
+   publisher = "Springer Berlin / Heidelberg",
+   isbn = "978-3-540-73296-9",
+   keyword = "Engineering",
+   pages = "77-99",
+   volume = "75",
+   year = "2007",
+}
+
+@InProceedings{nagano,
+  title ="Evolutionary Clustering Search for Flowtime Minimization in Permutation Flow Shop",
+  author ="G. R. Filho and M. S. Nagano and L. A. N. Lorena",
+  bibdate ="2007-09-21",
+  bibsource ="DBLP,http://dblp.uni-trier.de/db/conf/hm/hm2007.html#FilhoNL07",
+  booktitle ="Hybrid Metaheuristics",
+  booktitle ="Hybrid Metaheuristics, 4th International Workshop,{HM} 2007, Dortmund, Germany, October 8-9, 2007,Proceedings",
+  publisher ="Springer",
+  year ="2007",
+  volume ="4771",
+  ISBN ="978-3-540-75513-5",
+  pages ="69--81",
+  series ="Lecture Notes in Computer Science",
+}
+
+@Article{cccp,
+  title ="Hybrid evolutionary algorithm for the Capacitated Centered Clustering Problem",
+  author ="A.A. Chaves and L.A.N Lorena",
+  journal ="Expert Syst. Appl",
+  year ="2011",
+  number ="5",
+  volume ="38",
+  bibdate ="2011-02-09",
+  pages ="5013--5018",
+}
+
+@InProceedings{vns,
+  title ="Hybrid Metaheuristic for the Prize Collecting Travelling Salesman Problem",
+  author ="A. A. Chaves and L. A. N. Lorena",
+  bibdate ="2008-04-15",
+  booktitle ="EvoCOP",
+  booktitle ="Evolutionary Computation in Combinatorial Optimization, 8th European Conference, Evo{COP} 2008, Naples, Italy, March 26-28, 2008. Proceedings",
+  publisher = "Springer",
+  year ="2008",
+  volume = "4972",
+  editor = "Jano I. van Hemert and Carlos Cotta",
+  ISBN = "978-3-540-78603-0",
+  pages = "123--134",
+  series = "Lecture Notes in Computer Science",
+}
+
+@InProceedings{advances,
+  title ="Advances in Clustering Search",
+  author ="T. S. Costa and A.C.M Oliveira and L.A.N. Lorena",
+  bibdate ="2011-06-16",
+  booktitle ="SOCO",
+  booktitle ="Soft Computing Models in Industrial and Environmental Applications, 5th International Workshop ({SOCO} 2010),Guimar�es, Portugal, June 2010",
+  publisher ="Springer",
+  year ="2010",
+  volume ="73",
+  editor ="Emilio Corchado and Paulo Novais and Cesar Analide and Javier Sedano",
+  ISBN ="978-3-642-13160-8",
+  pages ="227--235",
+  series ="Advances in Soft Computing",
+}
+
+@Article{paradiseo,
+  title ="Paradis{EO}: {A} Framework for the Reusable Design of Parallel and Distributed Metaheuristics",
+  author ="S. Cahon and N. Melab and El-G. Talbi",
+  journal ="J. Heuristics",
+  year ="2004",
+  number ="3",
+  volume ="10",
+  bibdate ="2005-04-25",
+  pages ="357--380",
+  
+}
+
+@ONLINE{cecill,
+author = {CeCILL},
+title = {CeCILL and Free Software},
+month = jan,
+year = {2012},
+url = {http://www.cecill.info/index.en.html}
+}
+
+@Book{bellman,
+  author ="R. Bellman",
+  title ="Dynamic Programming",
+  publisher ="Princeton University Press",
+  year ="1957",
+}
+
+@Book{Goldberg89,
+  author ="David E. Goldberg",
+  address ="Reading, Massachusetts",
+  key ="Goldberg, 1989",
+  publisher ="Addison-Wesley Publishing Company",
+  title ="Genetic Algorithms in Search, Optimization and Machine Learning",
+  year ="1989",
+}
+
+@book {Linden,
+  author = "Ricardo Linden",
+  title = "Algoritmos Gen�ticos, uma importante ferramenta de Intelig�ncia Computacional",
+  journal = "Brasport",
+  year = "2006",
+}
+
+@book {ai,
+  author = "Michael Negnevitsky",
+  title = "Artificial Intelligence: A guide to Intelligent Systems (2nd Edition)",
+  journal = "Addison Wesley",
+  year = "2004",
+}
+
+@inproceedings{collection:eshelman1993,
+    address = {San Mateo, CA},
+    author = {Eshelman, L. J. and Schaffer, J. D.},
+    booktitle = {Foundation of Genetic Algorithms 2},
+    citeulike-article-id = {1045422},
+    editor = {Whitley, Darrell L.},
+    pages = {187--202},
+    posted-at = {2007-01-17 07:11:27},
+    priority = {0},
+    publisher = {Morgan Kaufmann.},
+    title = {Real-coded genetic algorithms and interval-schemata.},
+    year = {1993}
+   }
+
+@Article{Gaspero,
+  title ="EasyLocal++: an object-oriented framework for the flexible design of local-search algorithms",
+  author ="Luca Di Gaspero and Andrea Schaerf",
+  journal ="Softw, Pract. Exper",
+  year ="2003",
+  number ="8",
+  volume ="33",
+  bibdate ="2012-04-14",
+  bibsource ="DBLP,http://dblp.uni-trier.de/db/journals/spe/spe33.html#GasperoS03",
+  pages ="733--765",
+  URL ="http://dx.doi.org/10.1002/spe.524",
+}
+
+@TechReport{pisa,
+  author =	"S. Bleuler and M. Laumanns and L. Thiele and E.
+		 Zitzler",
+  title =	"{PISA} --- {A} Platform and Programming Language
+		 Independent Interface for Search Algorithms",
+  institution =  "{Computer Engineering and Networks Laboratory (TIK),
+		 ETH Zurich}",
+  type = 	"TIK Report",
+  number =	"154",
+  month =	oct,
+  year = 	"2002",
+}
+
+@Article{dream,
+  author ="M. G. Arenas and Pierre Collet and A. E. Eiben and M{\'a}rk Jelasity and J. J. Merelo and Ben Paechter and Mike Preu{\ss} and Marc Schoenauer",
+  title ="A Framework for Distributed Evolutionary Algorithms",
+  journal ="Lecture Notes in Computer Science",
+  volume ="2439",
+  pages ="665--??",
+  year ="2002",
+  CODEN ="LNCSD9",
+  ISSN ="0302-9743",
+  bibdate = "Sat Nov 30 20:57:24 MST 2002",
+  bibsource ="http://link.springer-ny.com/link/service/series/0558/tocs/t2439.htm",
+ }
+
+@Manual{ecj,
+  title ="The {ECJ} Owner's Manual -- {A} User Manual for the {ECJ} Evolutionary Computation Library",
+  author ="Sean Luke",
+  year ="2010",
+  edition ="Zeroth Edition, Online Version 0.2",
+  month =oct,
+  organisation = "Department of Computer Science, George Mason University",
+  keywords = "genetic algorithms, genetic programming",
+  URL =  	"http://www.cs.gmu.edu/~eclab/projects/ecj/docs/manual/manual.pdf",
+  size = 	"206 pages",
+}
+  
+@InProceedings{eo,
+  title ="Evolving Objects: a general purpose evolutionary computation library",
+  author ="Maarten Keijzer and J. J. Merelo and G. Romero and M. Schoenauer",
+  booktitle = "EA-01, Evolution Artificielle, 5th International Conference in Evolutionary Algorithms",
+  year ="2001",
+  pages ="231--244",
+  keywords ="genetic algorithms, genetic programming",
+  URL ="http://www.lri.fr/~marc/EO/EO-EA01.ps.gz",
+  size ="12 pages",
+}
+
+@book {alba,
+  author = "Christian Blum and Andrea Roli and Enrique Alba",
+  title = "Parallel Metaheuristics: a New Class of Algorithms",
+  journal = "Wiley",
+  year = "2005",
+}
+
+@Book{nocedal,
+  author =	"J. Nocedal and S. J. Wright",
+  title =	"Numerical Optimization",
+  year = 	"1999",
+  publisher =	"Springer-Verlag",
+  address =	"New York",
+  ISBN = 	"0-387-98793-2",
+}
+
+ @phdthesis{jong,
+    address = {Ann Arbor, MI, USA},
+    author = {De Jong, Kenneth A.},
+    citeulike-article-id = {1296858},
+    citeulike-linkout-0 = {http://portal.acm.org/citation.cfm?id=907087},
+    keywords = {rp},
+    posted-at = {2009-09-08 04:28:09},
+    priority = {2},
+    publisher = {University of Michigan},
+    title = {An analysis of the behavior of a class of genetic adaptive systems.},
+    url = {http://portal.acm.org/citation.cfm?id=907087},
+    year = {1975}
+}
+
+@article{margaritis,
+    address = {PDP Laboratory, Department of Applied Informatics, University of Macedonia, GR 54046, Thessaloniki, Greece},
+    author = {J. G. Digalakis and K. G. Margaritis},
+    citeulike-article-id = {1604701},
+    citeulike-linkout-0 = {http://dx.doi.org/10.1080/00207160210939},
+    citeulike-linkout-1 = {http://www.scopus.com/record/display.url?view=extended&origin=resultslist&eid=2-s2.0-0344723024},
+    doi = {10.1080/00207160210939},
+    journal = {International Journal of Computer Mathematics},
+    keywords = {algorithm, function, genetic, test},
+    number = {4},
+    pages = {403--416},
+    posted-at = {2007-08-29 13:01:12},
+    priority = {2},
+    title = {An experimental study of benchmarking functions for genetic algorithms},
+    url = {http://dx.doi.org/10.1080/00207160210939},
+    volume = {79},
+    year = {2002}
+}
+
+@Book{sch,
+author = { Hans Paul Schwefel. },
+title = { Numerical optimization of computer models},
+isbn = { 0471099880 },
+publisher = { Wiley, Chichester ; New York : },
+pages = { vii, 389 p. : },
+year = { 1981 },
+type = { Book },
+language = { English },
+subjects = { Mathematical optimization - Data processing.; Numerical analysis - Data processing.; Computer simulation. },
+life-dates = { 1981 -  },
+catalogue-url = { http://nla.gov.au/nla.cat-vn121039 },
+}
+
+
+@InProceedings{ts,
+  title =	"Parallel Skeletons for Tabu Search Method",
+  author =	"Maria J. Blesa and Llu{\'i}s Hern{\`a}ndez and Fatos
+		 Xhafa",
+  year = 	"2001",
+  bibdate =	"2002-01-03",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/icpads/icpads2001.html#BlesaHX01",
+  booktitle =	"ICPADS",
+  pages =	"23--30",
+}
+
+@Article{iopt,
+  author =	"Christos Voudouris and Raphael Dorne and David Lesaint
+		 and Anne Liret",
+  title =	"{iOpt}: {A} Software Toolkit for Heuristic Search
+		 Methods",
+  journal =	"Lecture Notes in Computer Science",
+  volume =	"2239",
+  pages =	"716--??",
+  year = 	"2001",
+  CODEN =	"LNCSD9",
+  ISSN = 	"0302-9743",
+  bibdate =	"Sat Feb 2 13:07:24 MST 2002",
+  bibsource =	"http://link.springer-ny.com/link/service/series/0558/tocs/t2239.htm",
+ 
+}
+
+@Article{mallba,
+  title =	"{MALLBA}: a software library to design efficient
+		 optimisation algorithms",
+  author =	"Enrique Alba and Gabriel Luque and Jose Garcia-Nieto
+		 and Guillermo Ordonez and Guillermo Leguizamon",
+  publisher =	"Inderscience Publishers",
+  year = 	"2007",
+  month =	apr # "~25",
+  volume =	"1",
+  }
+
+@InProceedings{mafra,
+  author =	"Natalio Krasnogor and Jim Smith",
+  title =	"{MAFRA}: {A} Java memetic algorithms framework",
+  booktitle =	"Data Mining with Evolutionary Algorithms",
+  year = 	"2000",
+  editor =	"Alex A. Freitas and William Hart and Natalio Krasnogor
+		 and Jim Smith",
+  pages =	"125--131",
+  address =	"Las Vegas, Nevada, USA",
+  month =	"8 " # jul,
+  notes =	"GECCO-2000WKS Part of wu:2000:GECCOWKS",
+}
+
+@PhdThesis{templar1,
+  author =	"Martin Stuart Jones",
+  title =	"An Object-Oriented Framework for the implementation of
+		 search techniques",
+  school =	"School of Information Systems of the University of
+		 East Anglia",
+  year = 	"2000",
+  type = 	"PhD Thesis",
+  month =	feb,
+}
+
+@InProceedings{chaves,
+  author =	"Luiz Antonio N. Lorena and Antonio Augusto Chaves and
+		 Francisco de Assis Correa",
+  title =	"Clustering Search Heuristic for the Capacitated
+		 p-Median Problem",
+  booktitle =	"Innovations in Hybrid Intelligent Systems / {HAIS}
+		 2007 12-13 november 2007 Salamanca, Spain",
+  editor =	"Ajith Abraham and Emilio Corchado and Juan M.
+		 Corchado",
+  series =	"Advances in Soft Computing",
+  year = 	"2007",
+  volume =	"44",
+  pages =	"136--143",
+  publisher =	"Springer",
+  chapter =	"4",
+  ISBN = 	"978-3-540-74971-4",
+}
+
+@Article{karaboga,
+  title =	"A comparative study of Artificial Bee Colony
+		 algorithm",
+  author =	"Dervis Karaboga and Bahriye Akay",
+  journal =	"Applied Mathematics and Computation",
+  year = 	"2009",
+  number =	"1",
+  volume =	"214",
+  bibdate =	"2009-09-15",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/journals/amc/amc214.html#KarabogaA09",
+  pages =	"108--132",
+  URL =  	"http://dx.doi.org/10.1016/j.amc.2009.03.090",
+}
+
+@InProceedings{mezura,
+  title =	"A comparative study of differential evolution variants
+		 for global optimization",
+  author =	"Efr{\'e}n Mezura-Montes and Jes{\'u}s
+		 Vel{\'a}zquez-Reyes and Carlos A. Coello Coello",
+  bibdate =	"2006-09-29",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/gecco/gecco2006.html#Mezura-MontesVC06",
+  booktitle =	"GECCO",
+  booktitle =	"Genetic and Evolutionary Computation Conference,
+		 {GECCO} 2006, Proceedings, Seattle, Washington, {USA},
+		 July 8-12, 2006",
+  publisher =	"ACM",
+  year = 	"2006",
+  editor =	"Mike Cattolico",
+  ISBN = 	"1-59593-186-4",
+  pages =	"485--492",
+  URL =  	"http://doi.acm.org/10.1145/1143997.1144086",
+}
+
+@Article{ros,
+  title =	"An automatic method for finding the greatest or least value of a function",
+  author =	"Howard Rosenbrock",
+  journal =	"The Computer Journal",
+  year = 	"1960",
+  number =	"3",
+  volume =	"3",
+  pages =	"175--184",
+  URL =  	"http://dx.doi.org/10.1093/comjnl/3.3.175",
+}
+
+@TechReport{karaboga05,
+  author =	"D. Karaboga",
+  title =	"An idea based on honeybee swarm for numerical optimization",
+  institution =  "Erciyes University, Engineering Faculty, Computer Engineering Department",
+  type = 	"Technical Report TR06",
+  number =	"154",
+  month =	oct,
+  year = 	"2005",
+}
+
+@InProceedings{tereshko,
+  title =	"Reaction-Diffusion Model of a Honeybee Colony's
+		 Foraging Behaviour",
+  author =	"Valery Tereshko",
+  bibdate =	"2009-10-28",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/ppsn/ppsn2000.html#Tereshko00",
+  booktitle =	"PPSN",
+  booktitle =	"Parallel Problem Solving from Nature - {PPSN} {VI},
+		 6th International Conference, Paris, France, September
+		 18-20, 2000, Proceedings",
+  publisher =	"Springer",
+  year = 	"2000",
+  volume =	"1917",
+  editor =	"Marc Schoenauer and Kalyanmoy Deb and G{\"u}nter
+		 Rudolph and Xin Yao and Evelyne Lutton and Juan J.
+		 Merelo Guerv{\'o}s and Hans-Paul Schwefel",
+  ISBN = 	"3-540-41056-2",
+  pages =	"807--816",
+  series =	"Lecture Notes in Computer Science",
+  URL =  	"http://dx.doi.org/10.1007/3-540-45356-3_79",
+}
+
+@Article{tereshko2,
+  title =	"How Information-Mapping Patterns Determine Foraging
+		 Behaviour of a Honey Bee Colony",
+  author =	"Valery Tereshko and Troy Lee",
+  journal =	"Open Syst. Inform. Dynam",
+  year = 	"2002",
+  number =	"2",
+  volume =	"9",
+  bibdate =	"2013-01-11",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/journals/osid/osid9.html#TereshkoL02",
+  pages =	"181--194",
+  URL =  	"http://dx.doi.org/10.1023/A:1015652810815",
+}
+
+@Article{tereshko3,
+  title =	"Collective decision-making in honeybee foraging dynamics",
+  author =	"V. Tereshko and A. Loengarov",
+  journal =	"Computing and Information Systems Journal",
+  year = 	"2005",
+  number =	"3",
+  volume =	"9",
+  bibdate =	"2013-01-11",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/journals/osid/osid9.html#TereshkoL02",
+  pages =	"181--194",
+  URL =  	"http://dx.doi.org/10.1023/A:1015652810815",
+}
+
+@TechReport{de,
+  author =	"Rainer Storn and Kenneth Price",
+  title =	"Differential Evolution - a simple and efficient
+		 adaptive scheme for global optimization over continuous
+		 spaces",
+  institution =  "International Computer Science Institute",
+  number =	"TR-95-012",
+  address =	"Berkeley, CA",
+  month =	mar,
+  year = 	"1995",
+  abstract =	"A new heuristic approach for minimizing possibly
+		 nonlinear and non differentiable continuous space
+		 functions is presented. By means of an extensive
+		 testbed, which includes the De Jong functions, it will
+		 be demonstrated that the new method converges faster
+		 and with more certainty than Adaptive Simulated
+		 Annealing as well as the Annealed Nelder\&Mead
+		 approach, both of which have a reputation for being
+		 very powerful. The new method requires few control
+		 variables, is robust, easy to use and lends itself very
+		 well to parallel computation.",
+}
+@Book{goldberg1,
+  author =	"David E. Goldberg",
+  address =	"Reading, Mass.",
+  publisher =	"Addison-Wesley",
+  title =	"Genetic Algorithms in Search, Optimization, and
+		 Machine Learning",
+  year = 	"1989",
+  ISBN = 	"0-201-15767-5",
+  keywords =	"LCS",
+}
+
+@article{de2,
+  author = {Storn, R. and Price, K.},
+  title = {Differential evolution--a simple and efficient heuristic for global optimization over continuous spaces},
+  journal = {Journal of global optimization},
+  publisher = {Springer},
+  year = {1997},
+  volume = {11},
+  number = {4},
+  pages = {341--359}
+}
+
+@Article{omar,
+  author =	"R. F. Lopes, M. S. de Alencar and O. A. C. Cortes",
+  title =	"Symbol Mapping Optimization for Cooperative
+Systems with a Hybrid Search Algorithm",
+  journal =	"XXX Simp�sio Brasileiro de Telecomunica��es (SBrT'12)",
+  volume =	"22",
+  number =	"4",
+  pages =	"18--??",
+  month =	apr,
+  year = 	"2012",
+  CODEN =	"DDJOEB",
+  ISSN = 	"1044-789X",
+  bibdate =	"Sat May 31 08:51:02 MDT 1997",
+}
+
+@Article{decont,
+  title =	"Investigating Smart Sampling as a population
+		 initialization method for Differential Evolution in
+		 continuous problems",
+  author =	"Vinicius Veloso de Melo and Alexandre Cl{\'a}udio
+		 Botazzo Delbem",
+  journal =	"Inf. Sci",
+  year = 	"2012",
+  volume =	"193",
+  bibdate =	"2012-04-20",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/journals/isci/isci193.html#MeloD12",
+  pages =	"36--53",
+  URL =  	"http://dx.doi.org/10.1016/j.ins.2011.12.037",
+}
+
+@book {Linden,
+author = "Ricardo Linden",
+title = "Algoritmos Gen�ticos, uma importante ferramenta de Intelig�ncia Computacional",
+journal = "Brasport",
+year = "2006",}
+
+@Article{herrera,
+  title =	"A taxonomy for the crossover operator for real-coded
+		 genetic algorithms: An experimental study",
+  author =	"Francisco Herrera and Manuel Lozano and Ana M.
+		 S{\'a}nchez",
+  journal =	"Int. J. Intell. Syst",
+  year = 	"2003",
+  number =	"3",
+  volume =	"18",
+  bibdate =	"2009-05-07",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/journals/ijis/ijis18.html#HerreraLS03",
+  pages =	"309--338",
+  URL =  	"http://dx.doi.org/10.1002/int.10091",
+}
+
+@Article{rosabc,
+  title =	"Rosenbrock artificial bee colony algorithm for
+		 accurate global optimization of numerical functions",
+  author =	"Fei Kang and Junjie Li and Zhenyue Ma",
+  journal =	"Inf. Sci",
+  year = 	"2011",
+  number =	"16",
+  volume =	"181",
+  bibdate =	"2011-05-23",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/journals/isci/isci181.html#KangLM11",
+  pages =	"3508--3531",
+  URL =  	"http://dx.doi.org/10.1016/j.ins.2011.04.024",
+}
+
+@Article{hybridharmony,
+  title =	"Hybrid harmony search and artificial bee colony
+		 algorithm for global optimization problems",
+  author =	"Bin Wu and Cunhua Qian and Weihong Ni and Shuhai Fan",
+  journal =	"Computers \& Mathematics with Applications",
+  year = 	"2012",
+  number =	"8",
+  volume =	"64",
+  bibdate =	"2012-10-18",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/journals/cma/cma64.html#WuQNF12",
+  pages =	"2621--2634",
+  URL =  	"http://dx.doi.org/10.1016/j.camwa.2012.06.026",
+}
+
+@InProceedings{chaves2,
+  title =	"Hybrid Metaheuristic for the Prize Collecting
+		 Travelling Salesman Problem",
+  author =	"Antonio Augusto Chaves and Luiz Antonio Nogueira
+		 Lorena",
+  bibdate =	"2008-04-15",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/evoW/evocop2008.html#ChavesL08",
+  booktitle =	"EvoCOP",
+  booktitle =	"Evolutionary Computation in Combinatorial
+		 Optimization, 8th European Conference, Evo{COP} 2008,
+		 Naples, Italy, March 26-28, 2008. Proceedings",
+  publisher =	"Springer",
+  year = 	"2008",
+  volume =	"4972",
+  editor =	"Jano I. van Hemert and Carlos Cotta",
+  ISBN = 	"978-3-540-78603-0",
+  pages =	"123--134",
+  series =	"Lecture Notes in Computer Science",
+  URL =  	"http://dx.doi.org/10.1007/978-3-540-78604-7_11",
+}
+
+@Book{mica,
+  title =	"How to solve it: Modern heuristics",
+  author =	"Zbigniew Michalewicz and D. B. Fogel",
+  publisher =	"Springer",
+  year = 	"2006",
+  annote =	"School of Computer Science",
+  bibsource =	"OAI-PMH server at digital.library.adelaide.edu.au",
+  description =  "Zbigniew Michalewicz, David B. Fogel.",
+  identifier =	"3540224947; 0020064251",
+  language =	"en",
+  oai =  	"oai:digital.library.adelaide.edu.au:2440/36028",
+  URL =  	"http://hdl.handle.net/2440/36028;
+		 http://proxy.library.adelaide.edu.au/login?url=http://library.adelaide.edu.au/cgi-bin/Pwebrecon.cgi?BBID=1170035;
+		 http://link.library.adelaide.edu.au/?url_ver=Z39.88-2004\&rft_val_fmt=info:ofi/fmt:kev:mtx:book\&rft.genre=book\&rft.aulast=Michalewicz\&rft.place=Warsaw,\%20Poland\&rft.btitle=How\%20to\%20solve\%20it:\%20Modern\%20heuristics\&rft.isbn=3540224947\&rft.pub=Springer",
+}
+
+
+
+@InProceedings{path,
+  author =	"Fred Glover",
+  title =	"A Template for Scatter Search and Path Relinking.",
+  booktitle =	"Artificial Evolution",
+  year = 	"1997",
+  pages =	"3--54",
+  ee =   	"http://link.springer.de/link/service/series/0558/bibs/1363/13630003.htm",
+  crossref =	"conf/ae/1997",
+  bibsource =	"DBLP, http://dblp.uni-trier.de",
+}
+
+
+
+@Article{nelder,
+  author =	"J. A. Nelder and R. Mead",
+  title =	"A simplex method for function minimization",
+  journal =	"Computer Journal",
+  year = 	"1965",
+  volume =	"7",
+  pages =	"308--313",
+  keywords =	"optimization",
+}
+
+@Article{chan,
+  author =	"Chen W. Y., Song Y., Bai H., Lin C. and Chang E.Y.",
+  title =	"Parallel spectral clustering in distributed systems",
+  journal =	"IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  year = 	"2011",
+  volume =	"3",
+  pages =	"568-586",
+}
+
+@InProceedings{cec,
+  title =	"New Clustering Search approaches applied to continuous domain optimization",
+  author =	"Tarc{\'i}sio Souza Costa and Alexandre C{\'e}sar Muniz de Oliveira",
+  publisher =	"IEEE",
+  year = 	"2013",
+  bibdate =	"2013-09-06",
+  bibsource =	"DBLP,http://dblp.uni-trier.de/db/conf/cec/cec2013.html#CostaO13",
+  booktitle =	"IEEE Congress on Evolutionary Computation",
+  crossref =	"conf/cec/2013",
+  ISBN = 	"978-1-4799-0452-5; 978-1-4799-0453-2",
+  pages =	"3214--3220",
+  URL =  	"http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6552460",
+}
+
+@InProceedings{iwann,
+  title =	"Artificial Bee Clustering Search",
+  author =	"Tarc{\'i}sio Souza Costa and Alexandre C{\'e}sar Muniz
+		 de Oliveira",
+  bibdate =	"2013-06-25",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/iwann/iwann2013-2.html#CostaO13",
+  booktitle =	"IWANN (2)",
+  booktitle =	"Advances in Computational Intelligence - 12th
+		 International Work-Conference on Artificial Neural
+		 Networks, {IWANN} 2013, Puerto de la Cruz, Tenerife,
+		 Spain, June 12-14, 2013, Proceedings, Part {II}",
+  publisher =	"Springer",
+  year = 	"2013",
+  volume =	"7903",
+  editor =	"Ignacio Rojas and Gonzalo Joya Caparr{\'o}s and Joan
+		 Cabestany",
+  ISBN = 	"978-3-642-38681-7",
+  pages =	"20--27",
+  series =	"Lecture Notes in Computer Science",
+  URL =  	"http://dx.doi.org/10.1007/978-3-642-38682-4",
+}
+
+@Booklet{cplex1,
+  title =	"{CPLEX} {Linear} {Optimizer} and {Mixed} {Integer}
+		 {Optimizer}",
+  author =	"{CPLEX Optimization Inc}",
+  address =	"Suite 279, 930 Tahoe Blvd. Bldg 802, Incline Village,
+		 NV 89541",
+}
+
+@InProceedings{mpi,
+  author =	"{MPI\ Forum}",
+  title =	"{MPI}: {A} Message Passing Interface",
+  booktitle =	"Proceedings of Supercomputing '93",
+  institution =  "MPI\ Forum",
+  pages =	"878--883",
+  publisher =	"IEEE CS Press",
+  address =	"Portland, OR",
+  month =	nov,
+  year = 	"1993",
+  keywords =	"Workshop",
+}
+
+@InProceedings{Cuzz,
+  title =	"Analytics over large-scale multidimensional data: the
+		 big data revolution!",
+  author =	"Alfredo Cuzzocrea and Il-Yeol Song and Karen C.
+		 Davis",
+  bibdate =	"2011-11-20",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/dolap/dolap2011.html#CuzzocreaSD11",
+  booktitle =	"DOLAP",
+  booktitle =	"{DOLAP} 2011, {ACM} 14th International Workshop on
+		 Data Warehousing and {OLAP}, Glasgow, United Kingdom,
+		 October 28, 2011, Proceedings",
+  publisher =	"ACM",
+  year = 	"2011",
+  editor =	"Il-Yeol Song and Alfredo Cuzzocrea and Karen C.
+		 Davis",
+  ISBN = 	"978-1-4503-0963-9",
+  pages =	"101--104",
+  URL =  	"http://doi.acm.org/10.1145/2064676.2064695",
+}
+
+@InProceedings{dhi,
+  title =	"Enhanced word clustering for hierarchical text
+		 classification",
+  author =	"Inderjit S. Dhillon and Subramanyam Mallela and Rahul
+		 Kumar",
+  publisher =	"ACM",
+  year = 	"2002",
+  bibdate =	"2006-02-13",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/conf/kdd/kdd2002.html#DhillonMK02",
+  booktitle =	"KDD",
+  crossref =	"conf/kdd/2002",
+  ISBN = 	"1-58113-567-X",
+  pages =	"191--200",
+  URL =  	"http://doi.acm.org/10.1145/775047.775076",
+}
+
+@Article{vak,
+  title =	"Clustering of objects and attributes for manufacturing
+		 and marketing applications",
+  author =	"Asoo J. Vakharia and Jayashree Mahajan",
+  journal =	"European Journal of Operational Research",
+  year = 	"2000",
+  number =	"3",
+  volume =	"123",
+  bibdate =	"2010-11-15",
+  bibsource =	"DBLP,
+		 http://dblp.uni-trier.de/db/journals/eor/eor123.html#VakhariaM00",
+  pages =	"640--651",
+  URL =  	"http://dx.doi.org/10.1016/S0377-2217(99)00103-4",
+}
+
+@Article{enr,
+  author =	"Enright and Ouzounis",
+  title =	"Gene{RAGE}: {A} Robust Algorithm for Sequence
+		 Clustering and Domain Detection",
+  journal =	"BIOINF: Bioinformatics",
+  volume =	"16",
+  year = 	"2000",
+}
+

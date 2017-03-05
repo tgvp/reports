@@ -1,0 +1,346 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{fix-cm}
+\usepackage{url}
+\usepackage[Glenn]{fncychap}
+\usepackage[hmargin={2.5cm}]{geometry}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{blindtext}
+\usepackage{tabularx}
+\usepackage{tabulary}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{enumitem}
+\usepackage{xspace}
+
+
+\renewcommand\FmN[1]{}
+%opening
+\title{Ciência sem Fronteiras (Science Without Borders) - 1st Technical Report}
+
+\begin{document}
+
+\maketitle
+
+\chapter{Introduction and PhD Project Context}
+
+The research work performed in this project is closely aligned with the ALEXANDRIA 
+and iCrawl projects at the L3S Research Center -  
+Leibniz Universit\"at Hannover\footnote{The L3S Research Center: \url{www.L3S.de}}.  
+%
+The L3S Research Center, the host institution of the PhD project, 
+is one of the leading institutions
+focusing on basic and applied research in the field of Web Science.  
+% 
+
+The ALEXANDRIA project \footnote{The ALEXANDRIA project: \url{http://alexandria-project.eu/}} 
+aims at creating a foundation for temporal retrieval, exploration and analytics in Web archives.
+%
+Web archives are a rich source of data since they reflect rapid evolution
+of the digital world. The interest in using the data
+stored within Web archives has been observed by researchers from different
+areas, such as history, sociology and law \cite{icrawlRequirements}. For example, 
+the discussion in \cite{Brugger14} indicates that Web archives are an important source for
+communication and media history, as well as within historiography in general.
+%
+In the context of Web archives, unique Web data collections available within 
+the ALEXANDRIA project represent a great opportunity to create new
+methods to explore and analyse the large scale data within Web archives.
+It also provides contacts with high level
+research scientists that has been crucial to the development of the PhD project.
+%
+While ALEXANDRIA focuses on already existing data collections within Web archives,
+the iCrawl project\footnote{\url{http://icrawl.l3s.uni-hannover.de/}} 
+aims at creation of such collections efficiently on demand, 
+using Web and Social Web data. In particular, the role of Social Media to achieve
+better temporal and topical coherence of the resulting collections is in the  
+main research focus of the project.
+
+In this reporting period, the student worked on the development of novel semantic analytics techniques 
+to enable efficient light-weight access to large scale Web and Social Web data collections 
+available in the context of the ALEXANDRIA and the iCrawl projects. 
+%
+In the following sections, we present a detailed description regarding the PhD work
+developed at the L3S during this period. 
+Then we present the work plan for the second year. 
+%
+Table~\ref{tab:work} illustrates the detailed information about the PhD
+candidate at the L3S Research Center.
+
+\begin{table} [!htb]
+\begin{center}
+\begin{tabular}{|l|l|l}
+\cline{1-2}
+\multicolumn{1}{|c|}{Name} & \multicolumn{1}{c|}{Tarcísio Souza Costa} &  \\ 
+\cline{1-2}
+\multicolumn{1}{|c|}{Process number} & \multicolumn{1}{c|}{201836/2014-9} &  \\ 
+\cline{1-2}
+\multicolumn{1}{|c|}{Report number} & \multicolumn{1}{c|}{1} &  \\
+\cline{1-2}
+\multicolumn{1}{|c|}{Area} & \multicolumn{1}{c|}{Computer Science} &  \\ 
+\cline{1-2}
+\multicolumn{1}{|c|}{Sub-area} & \multicolumn{1}{c|}{Computer Science} &  \\ 
+\cline{1-2}
+\multicolumn{1}{|c|}{Institution} & \multicolumn{1}{c|}{Instituto Federal do
+Maranhão - Brasil} & \\
+\cline{1-2}
+\multicolumn{1}{|c|}{Department} & \multicolumn{1}{c|}{Professional Education} &\\
+\cline{1-2}
+\multicolumn{1}{|c|}{Professional Address} & \multicolumn{1}{c|}{
+Pacas Street 5, Pinheiro Campus, Pinheiro - Maranhão, Brasil} &
+\\
+\cline{1-2}
+\multicolumn{1}{|c|}{E-mail} &
+\multicolumn{1}{c|}{souza@l3s.de | tarcisio@ifma.edu.br} &\\
+\cline{1-2}
+\multicolumn{1}{|c|}{Research Project} &
+\multicolumn{1}{c|}{ALEXANDRIA}
+&
+\\
+\cline{1-2}
+\multicolumn{1}{|c|}{Title} & \multicolumn{1}{|c|}{Master} \\
+\cline{1-2}
+\multicolumn{1}{|c|}{Supervisor} & \multicolumn{1}{|c|}{Prof. Dr. Wolfgang
+Nejdl | nejdl@l3s.de} \\
+\cline{1-2}
+\multicolumn{1}{|c|}{Advisor/Mentor} & \multicolumn{1}{|c|}{Dr. Elena Demidova
+| demidova@l3s.de}
+
+\\
+\cline{1-2}
+\multicolumn{1}{|c|}{Period of Evaluation} &
+ \multicolumn{1}{c|}{October, 2014$\rightarrow$July, 2015} \\
+\cline{1-2}
+\end{tabular}
+
+\caption{Student description}
+\end{center}
+\label{tab:work}
+\end{table}
+
+
+
+\chapter{Description of Research Activities}
+
+\section{Research and development activities}
+
+In the first year of the PhD project, the student has been involved in some of the key projects
+at L3S that focus on analytics of the Social Web and Web content,  
+including the iCrawl and the ALEXANDRIA projects. 
+
+\subsection{R\&D activities in the context of the iCrawl project}
+In this time period, the goal of the iCrawl project was to study how 
+Social Web signals can be used to support focused collection of fresh Web content 
+relevant to the current events, such as an Ebola outbreak, or a military conflict in Ukraine, 
+in an effective and efficient way. In iCrawl, Social Web signals, in this case Twitter messages,
+have been used to guide the Web crawler towards the newly created pages \cite{gossen15}.
+%
+In this initial phase, the student studied the literature related to the 
+problems of focused crawling and Social Web analytics.
+He also became familiar with the software developed in the context of the iCrawl project as well as 
+with the Big Data research infrastructure of the L3S Research Center. 
+Also in this period, the student started to learn new Big Data technologies, 
+such as Hadoop MapReduce, Hive and Pig Latin. 
+
+Large scale Web data collections, like those created in the iCrawl project, 
+or, more generally, data contained within Web archives, require efficient access techniques
+that can enable to efficiently locate relevant Social Web and Web content stored  
+within the archive to enable further research. 
+%
+The goal of providing efficient light-weight access to large scale Web collections
+lead the student to joining the ALEXANDRIA project at L3S later on as this project 
+explicitly focuses on providing efficient entity-centric access to large scale 
+Web collections. 
+% 
+An important question on the interconnection of the both projects
+is how to use current Web to discover resources within Web archives.
+
+\textbf{A URL discovery algorithm:} 
+In order to provide efficient URL-based access to the Web archive data in the ALEXANDRIA 
+context, the student developed a URL discovery algorithm that
+maps a set of URLs from the current Web to the corresponding URLs from the Web archive. 
+In this period the student investigated several methods to optimize the URL discovery 
+algorithm using Big Data technologies, such as the join optimization using Hive tables and an integration with Apache HBase.
+
+\subsection{R\&D activities in the context of the ALEXANDRIA project}
+The student became familiar with the work plan of the ALEXANDRIA project and joined Work Package 
+1 (Evolution-Aware Entity-Based Enrichment and Indexing), 
+where he focused on creation of novel efficient light-weight methods for 
+entity-centric access to Web archives. In this context, he 
+became familiar with the state-of-the-art methods and tools in the field of 
+Named Entity Recognition (NER), and other information extraction tools. 
+
+\textbf{A light-weight full-text URL-based index:}
+As full-text indexing of large scale Web archive data is computationally very expensive,
+the student developed a light-weight full-text index that only takes the URLs into account.
+To this extent, the student has written an analyzer for correct pre-processing 
+and parsing of URLs to detect keywords. 
+%
+At the same period the student also learned a distributed indexing technology, named Elastic
+Search. The index was
+developed and made available in Kibana (a user-friendly Elastic Search graphical user
+interface). 
+%
+The student developed categorization of 
+URL search results by domain and mime type, performed index optimization such as setting some fields as analyzed 
+by the search engine as well as refinement of search engine results to retrieve documents in certain 
+periods of time. 
+%
+The index was further improved by inserting mime type, domain and
+improvements related to temporal expressions automatically 
+extracted from the URLs, also changes in the main
+structure were performed. This index should be used as a starting point for the iCrawl
+to find relevant documents within the archive. 
+
+\textbf{Named entity extraction from URLs:}
+Further semantic analytics of the URLs included named entity extraction from URLs. 
+The paper describing this work was accepted for publication at the 
+1st International Keystone Conference
+\footnote{\url{http://www.keystone-cost.eu/ikc2015/about.php}} at the beginning of
+July 2015. 
+% lead to a publication 
+% work on this dataset The student is the main author of the paper 
+% % started writing a paper together with the other colleagues from
+% % the iCrawl project, 
+In this paper, the student analysed a subset of URLs, named as Popular German
+Web. Such a subset is related to popular domains according to Alexa
+ranking\footnote{\url{http://www.alexa.com}}. In this paper we measure the
+quantity of URLs that are alive (the status code starts with ``2'') per year and per domain, 
+also counting in which domains categories they are included, as Sports, Games,
+Computes and so on. We also extracted temporal expressions
+and entities using only the information within URLs.
+%
+We continue working on this topic to further improve the results, for instance by adding better
+pre-processing and post-filtering procedures in the URLs before applying state
+of the art techniques to extract entities, as Stanford Named Entity Recognition
+(NER) \footnote{\url{http://nlp.stanford.edu/software/CRF-NER.shtml}}. Using
+those procedures we reach a precision up to 85\% in our dataset. 
+%
+Further improvements such as evaluating
+precision and filtering on a sample of distinct URLs, instead of captures and
+presentation of a more detailed description of how the precision was measured are currently 
+being performed by the student as a part of the camera-ready preparation
+and to address the review comments.
+
+\subsection{Artificial Bee Clustering Search (ABCS) algorithm}
+In addition to the research activities and publications in the ALEXANDRIA project, during this reporting period 
+the student 
+received an acceptance message from an extended version of a paper to be published in
+a journal, the Artificial Bee Clustering Search (ABCS) algorithm \cite{costaiwann13}. 
+After the final version submitted, the journal paper was published \cite{costa2014}. 
+
+\section{Integration in the L3S research environment}
+At the beginning of the first year at the L3S Research Center, the student 
+joined the team of the iCrawl project lead by Dr. Elena Demidova, who was appointed as the student advisor
+by Prof. Wolfgang Nejdl. Later on, the student joined a larger group of researchers working on the 
+ALEXANDRIA project.
+
+A part of the student integration in the L3S research environment is the regular meetings with the 
+advisor (once a week), and with Prof. Nejdl (once a month) 
+as well as regular participation in the iCrawl and ALEXANDRIA project meetings.
+These meetings are very helpful for the student to 
+obtain feedback on his research work, in particular with respect to further improvement of the results
+and promising research directions for future work.
+
+During this reporting period, the student made two presentations of the research and development
+results in the ALEXANDRIA meetings: The student presented the URL index using Kibana interface during
+the ALEXANDRIA meeting on March 5th, 2015. The paper accepted for the 1st International Keystone Conference 
+was presented by the student on June 18th, 2015.
+%
+These presentations provided valuable feedback for the student work from a larger group
+of the L3S researchers involved in the project.
+
+
+\section{Community services}
+
+The student worked as a sub-reviewer under supervision of Dr. Thomas Risse for the 
+Joint Conference on Digital Libraries 2015 (JCDL 2015). That was a good experience since
+the paper student reviewed was related to the PhD work and was
+very useful to improve the student knowledge in the field.
+
+\section{Courses}
+
+In winter semester, the student followed the course ``Foundations of Information Retrieval"
+including lectures and exercises offered by Prof. Nejdl. This lecture provides a solid 
+foundation to better understand Information Retrieval concepts and terminology
+used in the context of the ALEXANDRIA project and also to become familiar with the  
+typical evaluation methods. 
+
+In summer semester, the student participated in the course 
+``Advanced Methods of Information Retrieval'' conducted by Dr. Elena Demidova. In this course
+Information Retrieval specific methods were presented from the practical point of view, 
+including implementation exercises and challenging research questions during the lectures.
+This course was very useful for the student to become familiar with a diversity
+of relevant topics in the field as well as open research directions relevant to the doctoral
+study.
+
+At the moment there are no grades for these courses, that is the reason the
+doctorate transcript will not be provided, only in next annual report. The
+student will take the information retrieval exams still in current month and
+on September.
+\section{Accepted publications}
+
+\textbf{Title:} Semantic URL Analytics to Support Efficient Annotation of Large Scale Web Archives. \\
+\textbf{Authors:} Tarcísio Souza, Elena Demidova, Thomas Risse, Helge Holzmann, Gerhard Gossen and Julian Szymanski. \\
+\textbf{To appear in:} Proceedings of the 1st International Keystone Conference, Coimbra, Portugal, September 2015.\\
+\textbf{Abstract:}
+``Long-term Web archives comprise Web documents gathered over longer time periods and can easily reach hundreds of terabytes in size.
+Semantic annotations such as named entities can facilitate intelligent access to the Web archive data. 
+However, the annotation of the entire archive content on this scale is often infeasible. The most efficient way to access the documents within Web archives is provided through their URLs, which are typically stored in 
+dedicated index files. The URLs of the archived Web documents can contain
+semantic information and can offer an efficient way to obtain initial semantic annotations for the archived documents. 
+In this paper, we analyse the applicability of semantic analysis techniques such as named entity extraction
+to the URLs in a Web archive. We evaluate the precision of the named entity
+extraction from the URLs in the Popular German Web dataset and analyse the
+proportion of the archived URLs from 1,444 popular domains in the time interval from 2000 to 2012 to which these techniques are applicable.
+Our results demonstrate that named entity recognition can be successfully applied to a large number of URLs in 
+our Web archive and provide a good starting point to efficiently annotate large scale collections of Web documents.''
+
+
+
+\chapter {Conclusion and Outlook}
+
+During the first reporting period, the student worked on the problems 
+of light-weight semantic annotation of large web collections in the 
+context of the ALEXANDRIA and the iCrawl projects. The student learned 
+state-of-the-art Big Data processing technologies,
+developed novel approaches for Web data analytics, and published the results.
+
+The first period at the L3S Research Center was a really rich experience, since the student had
+an opportunity to study different research areas, learn new technologies as
+well as working with top-level researchers.
+%
+During this period the student could find a well defined working approach
+implemented by the L3S, where regular meetings with the supervisor (one per month)
+and the advisor (one per week) were performed, which was very useful to
+improve the student knowledge, also helping him to improve the PhD work that has
+been developed in last months. 
+%
+% %
+% The difficulties the student faced in the first
+% time were related to the organization of the work, 
+% in particular with respect to estimating the time needed to become proficient with the 
+% current Big Data technologies and software.
+% %
+% It was a satisfactory period and the first developed work
+% was just a starting point for what can be done in next periods.
+
+In the second year, the student will continue research in the context of the ALEXANDRIA 
+and the iCrawl projects. In particular, he will further develop and evaluate semantic analysis 
+techniques for URLs, such as terms, named entities and 
+temporal expressions extraction and correlation. Furthermore, he will develop novel methods to identify
+interconnections between such semantic information spread across URLs
+to enable light-weight URL-based sub-collection extraction of information related to events
+from large unfocused Web data collections.
+In this context the student will rely on machine learning and 
+statistical techniques as well as soft computing - based algorithms. 
+
+\onehalfspace
+\bibliography{bibliografia}{}
+\bibliographystyle{plain}
+
+\end{document}
+
